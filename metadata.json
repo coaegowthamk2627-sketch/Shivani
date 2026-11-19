@@ -1,0 +1,8 @@
+{
+  "name": "IISER GUIDE",
+  "description": "IISER GUIDE – Complete Admission, Education, Research & Career Portal. Your Complete Roadmap to India's Premier Science and Research Institutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

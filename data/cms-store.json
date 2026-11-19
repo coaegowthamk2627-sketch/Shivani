@@ -1,0 +1,1358 @@
+{
+  "news": [
+    {
+      "id": "news-1",
+      "title": "IAT Remains Sole Admission Channel for 7 IISERs (BS-MS, BS & B.Tech) — Monitor Official Portal for 2026 Cycle",
+      "category": "IAT Announcements",
+      "date": "Updated 2026",
+      "sourceName": "Official IISER Admission Portal",
+      "sourceType": "Official Announcement",
+      "summary": "All seven IISERs admit students to 5-Year BS-MS, 4-Year BS, and IISER Bhopal B.Tech. programmes exclusively through the IISER Aptitude Test (IAT). Aspirants should check iiseradmission.in for exact 2026–27 brochure release dates.",
+      "officialUrl": "https://www.iiseradmission.in"
+    },
+    {
+      "id": "news-2",
+      "title": "Ph.D. & Integrated Ph.D. Admission Cycles Across IISER Pune, Kolkata, Mohali, Bhopal & TVM",
+      "category": "PhD & Internships",
+      "date": "Academic Cycle 2025–26",
+      "sourceName": "Individual IISER Admission Portals",
+      "sourceType": "Verified Institutional Update",
+      "summary": "IISERs conduct bi-annual Ph.D. admissions (August and January cohorts) accepting CSIR-UGC NET (JRF), GATE, JEST, NBHM, and DBT/ICMR fellowships. Verify department-specific deadlines directly on each campus site.",
+      "officialUrl": "https://www.iiserpune.ac.in"
+    },
+    {
+      "id": "news-3",
+      "title": "DST INSPIRE-SHE & National Scholarship Portal (NSP) Verification Advisory for Enrolled Students",
+      "category": "Scholarships",
+      "date": "2025–26 Academic Year",
+      "sourceName": "DST INSPIRE & NSP India",
+      "sourceType": "Official Announcement",
+      "summary": "Eligible first-year BS-MS students must complete OTR on scholarships.gov.in or submit IISER endorsement forms on online-inspire.gov.in within official window deadlines.",
+      "officialUrl": "https://online-inspire.gov.in"
+    },
+    {
+      "id": "news-4",
+      "title": "NIRF Data & Career Outcomes: Balancing Doctoral Progression with Industry R&D and Analytics Roles",
+      "category": "Placements",
+      "date": "2025 Reference",
+      "sourceName": "NIRF & IISER Career Development Cells",
+      "sourceType": "Verified Institutional Update",
+      "summary": "Published NIRF 5-year UG data confirms that 55%–65%+ of IISER BS-MS graduates choose doctoral research globally, while median industry/placement packages for participating cohorts range around ₹7.0–₹9.0 LPA.",
+      "officialUrl": "https://www.nirfindia.org"
+    },
+    {
+      "id": "news-5",
+      "title": "Rolling Faculty & Postdoctoral Recruitment Open Across IISER Pune, Kolkata & Berhampur",
+      "category": "Job & Faculty Recruitment",
+      "date": "Active Standing Notices",
+      "sourceName": "Official IISER Recruitment Portals",
+      "sourceType": "Official Announcement",
+      "summary": "Standing faculty advertisements for Assistant, Associate, and Professor positions along with institute postdoctoral fellowships are open across multiple departments.",
+      "officialUrl": "https://www.iiserbpr.ac.in/opportunities"
+    },
+    {
+      "id": "news-6",
+      "title": "IISER Kolkata CESSI & IISER Pune I-HUB Quantum Initiatives Expand National Science Infrastructure",
+      "category": "Research Achievements",
+      "date": "2025–26 Update",
+      "sourceName": "IISER Research Portals & DST",
+      "sourceType": "Verified Institutional Update",
+      "summary": "Inter-institutional research centres at IISERs continue major contributions to solar space weather (Aditya-L1 science), quantum hardware, climate modelling, and structural biology.",
+      "officialUrl": "https://www.iiserkol.ac.in/web/en/research/"
+    }
+  ],
+  "vacancies": [
+    {
+      "id": "vac-pune-fac",
+      "institution": "IISER Pune",
+      "position": "Assistant Professor / Associate Professor / Professor (Rolling Advertisement)",
+      "category": "Faculty",
+      "department": "Biology, Chemistry, Physics, Mathematics, Earth & Climate Science, Data Science, HSS",
+      "qualification": "Ph.D. with first-class or equivalent at preceding degree and outstanding post-doctoral research record.",
+      "experience": "Minimum 3 years post-Ph.D. research/teaching experience for Assistant Professor Grade I.",
+      "ageLimit": "As per institute & MoE norms (preferably below 35–40 for Assistant Professor; relaxations apply).",
+      "salaryOrPayLevel": "7th CPC Academic Pay Level 12 (₹1,01,500 Basic) / Level 13A2 / Level 14A",
+      "deadline": "Rolling Advertisement (Reviewed periodically throughout the year)",
+      "status": "Active (Rolling / Open)",
+      "selectionProcedure": "Shortlisting by departmental committee, research seminar presentation, and statutory selection committee interview.",
+      "officialNotificationUrl": "https://www.iiserpune.ac.in/opportunities",
+      "applicationUrl": "https://www.iiserpune.ac.in/opportunities/faculty"
+    },
+    {
+      "id": "vac-kol-fac",
+      "institution": "IISER Kolkata",
+      "position": "Faculty Positions (Assistant Professor Grade I & II) — Standing Advertisement",
+      "category": "Faculty",
+      "department": "Biological, Chemical, Earth, Mathematical, Physical Sciences & Computational Sciences",
+      "qualification": "Ph.D. in relevant area with strong peer-reviewed publications.",
+      "experience": "0–3+ years post-doctoral experience (Grade II / Grade I depending on experience).",
+      "ageLimit": "Preferably below 35–40 years for Asst. Prof. (Relaxation per Govt. of India rules).",
+      "salaryOrPayLevel": "7th CPC Level 10 / 11 (Grade II) or Level 12 (Grade I) + Allowances",
+      "deadline": "Rolling / Check official cycle cut-off dates on portal",
+      "status": "Active (Rolling / Open)",
+      "selectionProcedure": "Seminar talk + faculty interaction + Statutory Selection Committee interview.",
+      "officialNotificationUrl": "https://www.iiserkol.ac.in/web/en/announcements/opportunities/",
+      "applicationUrl": "https://www.iiserkol.ac.in/web/en/announcements/opportunities/"
+    },
+    {
+      "id": "vac-bhopal-proj",
+      "institution": "IISER Bhopal",
+      "position": "Project JRF / SRF / Project Associate-I & II (Sponsored R&D Grants)",
+      "category": "Research (JRF/SRF/Project)",
+      "department": "Chemical Engineering, Biological Sciences, Physics, Data Science & Engineering",
+      "qualification": "M.Sc. / BS-MS / B.Tech. / M.Tech. in relevant discipline; CSIR-NET / GATE preferred for JRF scale.",
+      "experience": "0–2 years research/lab experience depending on Project Associate tier.",
+      "ageLimit": "Typically 28–35 years (relaxable per DST/SERB/ANRF norms).",
+      "salaryOrPayLevel": "₹31,000 – ₹37,000/month + HRA (JRF) or ₹25,000 – ₹35,000/month (Project Associate)",
+      "deadline": "Varies by individual PI grant notification (Verify active openings)",
+      "status": "Verify on Institute Portal",
+      "selectionProcedure": "Online application / email to PI followed by online or in-person technical interview.",
+      "officialNotificationUrl": "https://www.iiserb.ac.in/vacancies",
+      "applicationUrl": "https://www.iiserb.ac.in/vacancies"
+    },
+    {
+      "id": "vac-mohali-postdoc",
+      "institution": "IISER Mohali",
+      "position": "Institute Postdoctoral Fellowship (IPDF) & Research Associateships",
+      "category": "Postdoctoral",
+      "department": "All Science & Humanities Departments",
+      "qualification": "Ph.D. awarded or thesis submitted in relevant discipline.",
+      "experience": "Fresh Ph.D. graduates with strong publication record and research proposal with an IISER Mohali faculty mentor.",
+      "ageLimit": "Typically up to 32–35 years (5-year relaxation for SC/ST/OBC/Women).",
+      "salaryOrPayLevel": "₹58,000 – ₹67,000/month + HRA (RA-I/II/III scale per DST guidelines)",
+      "deadline": "Periodic cycles (Check official openings page)",
+      "status": "Verify on Institute Portal",
+      "selectionProcedure": "Mentor endorsement + Research proposal review + Interview.",
+      "officialNotificationUrl": "https://www.iisermohali.ac.in/opportunities",
+      "applicationUrl": "https://www.iisermohali.ac.in/opportunities"
+    },
+    {
+      "id": "vac-tvm-tech",
+      "institution": "IISER Thiruvananthapuram",
+      "position": "Technical Officer / Scientific Assistant / Lab Technician Drives",
+      "category": "Technical",
+      "department": "Central Instrumentation Facility & Academic Laboratories",
+      "qualification": "M.Sc. / B.Tech. / B.Sc. / Diploma in Instrumentation, Electronics, Physics, Chemistry, or Biology.",
+      "experience": "2–5 years operating analytical instruments (NMR, TEM, XRD, HPC) depending on post level.",
+      "ageLimit": "Typically 30–40 years per Pay Level.",
+      "salaryOrPayLevel": "7th CPC Level 6 (₹35,400) to Level 10 (₹56,100) Basic + Allowances",
+      "deadline": "Closed (Previous cycle concluded — monitor portal for new circular)",
+      "status": "Closed",
+      "selectionProcedure": "Written test / Skill trade test + Interview.",
+      "officialNotificationUrl": "https://www.iisertvm.ac.in/openings",
+      "applicationUrl": "https://www.iisertvm.ac.in/openings"
+    },
+    {
+      "id": "vac-tirupati-admin",
+      "institution": "IISER Tirupati",
+      "position": "Non-Teaching & Administrative Positions (Assistant Registrar / Junior Superintendent / Office Assistant)",
+      "category": "Administrative & Non-Teaching",
+      "department": "Administration, Finance, Academic & Purchase Sections",
+      "qualification": "Bachelor’s or Master’s degree with proficiency in Govt. rules, GFR, accounting, or academic administration.",
+      "experience": "2–8 years in CFTIs/Central Universities/Govt. offices depending on level.",
+      "ageLimit": "27–40 years depending on post.",
+      "salaryOrPayLevel": "7th CPC Level 4 to Level 10",
+      "deadline": "Check active recruitment portal for current drive status",
+      "status": "Verify on Institute Portal",
+      "selectionProcedure": "Written examination, skill/computer test, and interview (as applicable).",
+      "officialNotificationUrl": "https://www.iisertirupati.ac.in/opportunities/",
+      "applicationUrl": "https://www.iisertirupati.ac.in/opportunities/"
+    },
+    {
+      "id": "vac-berhampur-fac",
+      "institution": "IISER Berhampur",
+      "position": "Faculty & Research Staff Rolling Recruitment",
+      "category": "Faculty",
+      "department": "Biological, Chemical, Mathematical & Physical Sciences",
+      "qualification": "Ph.D. with strong independent research plan and teaching commitment.",
+      "experience": "Post-doctoral research experience per MoE 4-tier flexible faculty structure.",
+      "ageLimit": "As per Govt. of India / IISER recruitment norms.",
+      "salaryOrPayLevel": "7th CPC Level 12 / 13A2 / 14A",
+      "deadline": "Rolling Advertisement",
+      "status": "Active (Rolling / Open)",
+      "selectionProcedure": "Departmental evaluation, seminar, and Statutory Selection Committee interview.",
+      "officialNotificationUrl": "https://www.iiserbpr.ac.in/opportunities",
+      "applicationUrl": "https://www.iiserbpr.ac.in/opportunities"
+    }
+  ],
+  "scholarships": [
+    {
+      "id": "sch-inspire",
+      "name": "INSPIRE Scholarship for Higher Education (SHE)",
+      "provider": "Department of Science and Technology (DST), Govt. of India",
+      "category": "Merit & Science",
+      "eligibility": "Top 1% in Class 12 Board Examination OR top 10,000 rank in JEE/NEET/IAT (subject to DST active cut-off & natural sciences BS-MS/B.Sc. enrolment) aged 17–22 years. Verify exact IAT rank inclusion in current DST notification.",
+      "benefitsAndAmount": "₹5,000 per month (₹60,000/yr) + ₹20,000 annual summer mentorship grant (Total ₹80,000/year).",
+      "duration": "Up to 5 years (or completion of BS-MS programme, subject to annual academic renewal CGPA ≥ 7.0).",
+      "applicationProcedure": "Apply online via online-inspire.gov.in after IISER admission confirmation and endorsement certificate from the Dean/Registrar.",
+      "importantDates": "Typically opens September – November each academic year.",
+      "requiredDocuments": [
+        "Class 12 Marks Card",
+        "Admission Endorsement Form from IISER",
+        "Bank Account & Aadhaar",
+        "Entrance Rank Card (if applicable)"
+      ],
+      "officialUrl": "https://online-inspire.gov.in",
+      "lastUpdated": "Verified against DST INSPIRE-SHE guidelines (2025–26)"
+    },
+    {
+      "id": "sch-nsp-css",
+      "name": "Central Sector Scheme of Scholarships (CSSS) & Top Class SC/ST Schemes",
+      "provider": "Ministry of Education / Ministry of Social Justice & Empowerment / Tribal Affairs",
+      "category": "Category / Social Welfare",
+      "eligibility": "Meritorious students from EWS/SC/ST/OBC/Minority backgrounds meeting family income ceilings (typically ₹4.5L–₹8L/yr depending on specific scheme).",
+      "benefitsAndAmount": "Covers full tuition/non-refundable fees up to scheme caps plus living/book allowances depending on specific NSP vertical.",
+      "duration": "Annual renewal based on academic progression.",
+      "applicationProcedure": "One-Time Registration (OTR) & application on National Scholarship Portal (scholarships.gov.in), verified by IISER nodal officer.",
+      "importantDates": "Typically August – October (Verify NSP annual calendar).",
+      "requiredDocuments": [
+        "Valid Caste/EWS Certificate",
+        "Family Income Certificate",
+        "Institute Fee Receipt",
+        "Previous Marksheet"
+      ],
+      "officialUrl": "https://scholarships.gov.in",
+      "lastUpdated": "Verified against NSP portal guidelines"
+    },
+    {
+      "id": "sch-moe-waiver",
+      "name": "MoE Tuition Fee Waiver for SC / ST / PwD Students at IISERs",
+      "provider": "Ministry of Education, Government of India (Implemented by all 7 IISERs)",
+      "category": "Category / Social Welfare",
+      "eligibility": "All regular BS-MS, BS, B.Tech, and Ph.D. students admitted under SC, ST, or PwD categories at any IISER.",
+      "benefitsAndAmount": "100% Tuition Fee Exemption (saves ~₹88,000–₹98,000 per year; hostel/mess/medical fees remain payable unless covered by external aid).",
+      "duration": "Entire duration of the degree programme.",
+      "applicationProcedure": "Automatically applied during IISER admission fee payment upon verification of valid category/disability certificates.",
+      "importantDates": "At the time of admission & every semester registration.",
+      "requiredDocuments": [
+        "Central-format SC/ST Certificate or UDID/PwD Medical Board Certificate"
+      ],
+      "officialUrl": "https://www.iiseradmission.in",
+      "lastUpdated": "Verified across IISER Pune, Kolkata & Bhopal fee circulars"
+    },
+    {
+      "id": "sch-jrf-srf",
+      "name": "CSIR / UGC / DST / DBT / ICMR Junior & Senior Research Fellowships (JRF/SRF)",
+      "provider": "CSIR, UGC, DST, DBT, ICMR (Govt. of India Funding Agencies)",
+      "category": "PhD & Research Fellowship",
+      "eligibility": "Ph.D. scholars qualifying CSIR-UGC NET (JRF), GATE, DBT-BET, ICMR-JRF, or INSPIRE-PhD and enrolled at IISERs or national labs.",
+      "benefitsAndAmount": "JRF: ₹37,000/month + HRA · SRF (after 2 years & review): ₹42,000/month + HRA · Annual contingency grant (₹20,000–₹30,000).",
+      "duration": "Up to 5 years (2 years JRF + 3 years SRF).",
+      "applicationProcedure": "Qualify national fellowship exam and activate fellowship through IISER R&D / Academic Dean’s office upon Ph.D. registration.",
+      "importantDates": "CSIR-NET held twice yearly (June & December).",
+      "requiredDocuments": [
+        "JRF Award Letter",
+        "Ph.D. Joining Report",
+        "Master’s / BS-MS Degree Certificate"
+      ],
+      "officialUrl": "https://csirhrdg.res.in",
+      "lastUpdated": "Verified per DST OM (effective Jan 2023 revision)"
+    },
+    {
+      "id": "sch-pmrf",
+      "name": "Prime Minister’s Research Fellowship (PMRF) / Equivalent Doctoral Merit Tracks",
+      "provider": "Ministry of Education, Govt. of India",
+      "category": "PhD & Research Fellowship",
+      "eligibility": "Top-performing BS-MS/B.Tech/M.Sc. graduates (CGPA ≥ 8.0 or GATE ≥ 650) entering Ph.D. at IISERs, IISc, or IITs (check active cycle guidelines).",
+      "benefitsAndAmount": "₹70,000/month (Years 1–2), ₹75,000/month (Year 3), ₹80,000/month (Years 4–5) + ₹2,00,000/year research contingency grant.",
+      "duration": "Up to 5 years subject to annual national panel review.",
+      "applicationProcedure": "Nomination through the host IISER/IIT/IISc via official PMRF portal.",
+      "importantDates": "Cycle notifications published on pmrf.in (verify active cycle status).",
+      "requiredDocuments": [
+        "CGPA Transcripts",
+        "Research Proposal",
+        "Faculty Recommendation"
+      ],
+      "officialUrl": "https://www.pmrf.in",
+      "lastUpdated": "Official PMRF guidelines reference (verify active cycle intake)"
+    },
+    {
+      "id": "sch-daad-intl",
+      "name": "DAAD WISE, MITACS Globalink, Charpak & Fulbright-Nehru Fellowships",
+      "provider": "DAAD (Germany), Mitacs (Canada), Campus France, USIEF",
+      "category": "International",
+      "eligibility": "IISER BS-MS/B.Tech/Ph.D. students in their 3rd/4th year (summer internships) or graduating seniors applying for MS/Ph.D. abroad.",
+      "benefitsAndAmount": "Monthly living stipend (e.g., €934/mo DAAD WISE, CAD funding Mitacs, or full US/EU tuition + $30k–$45k stipend) + airfare & health insurance.",
+      "duration": "2–3 months (Summer Research) or 4–5 years (Doctoral Grants).",
+      "applicationProcedure": "Apply directly to host international portal with acceptance letter from overseas professor and IISER NOC.",
+      "importantDates": "August – November (for following summer/fall intake).",
+      "requiredDocuments": [
+        "Host Professor Invitation Letter",
+        "Official IISER Transcript",
+        "Statement of Purpose",
+        "2 Academic LORs"
+      ],
+      "officialUrl": "https://www.daad.in",
+      "lastUpdated": "Verified international mobility fellowship schedule"
+    }
+  ],
+  "placements": [
+    {
+      "id": "pl-pune",
+      "institutionId": "iiser-pune",
+      "institutionName": "IISER Pune",
+      "academicYear": "2023–24 (NIRF 2025 Submission)",
+      "programScope": "5-Year Integrated UG (BS-MS)",
+      "graduatingStudents": "234 (Verify exact batch figure in NIRF PDF)",
+      "higherStudiesCount": "130+ pursuing Ph.D. / Higher Studies",
+      "placedStudents": "38 placed directly via campus/off-campus",
+      "placementPercentage": "~16% direct placement; ~56%+ higher studies (research-oriented cohort)",
+      "medianSalary": "₹8.50 LPA (NIRF 5-Year UG Median reported; verify latest)",
+      "averageSalary": "Official data not publicly available",
+      "highestSalary": "Official data not publicly available",
+      "minimumSalary": "Official data not publicly available",
+      "topSectorsAndRecruiters": "Pharma R&D, Biotech, Data Analytics, Ed-Tech, Consulting (verify active CDC list)",
+      "sourceLabel": "NIRF India Rankings Report & IISER Pune CDC",
+      "officialUrl": "https://www.iiserpune.ac.in/students/career-development-cell",
+      "dataStatus": "Partial Official Data"
+    },
+    {
+      "id": "pl-kolkata",
+      "institutionId": "iiser-kolkata",
+      "institutionName": "IISER Kolkata",
+      "academicYear": "2023–24 (NIRF 2025 Submission)",
+      "programScope": "5-Year Integrated UG (BS-MS)",
+      "graduatingStudents": "190+ (Verify exact NIRF PDF)",
+      "higherStudiesCount": "115+ pursuing Ph.D. / Higher Studies",
+      "placedStudents": "24 placed",
+      "placementPercentage": "Majority opt for Ph.D. / Research (~60%+)",
+      "medianSalary": "₹7.00 LPA (NIRF 5-Year UG Median reported; verify latest)",
+      "averageSalary": "Official data not publicly available",
+      "highestSalary": "Official data not publicly available",
+      "minimumSalary": "Official data not publicly available",
+      "topSectorsAndRecruiters": "Analytics, Ed-Tech, Chemical & Materials R&D, Bioinformatics",
+      "sourceLabel": "NIRF India Rankings Report & IISER Kolkata Placement Cell",
+      "officialUrl": "https://www.iiserkol.ac.in/~placement/",
+      "dataStatus": "Partial Official Data"
+    },
+    {
+      "id": "pl-mohali",
+      "institutionId": "iiser-mohali",
+      "institutionName": "IISER Mohali",
+      "academicYear": "2023–24 (NIRF Submission)",
+      "programScope": "5-Year Integrated UG (BS-MS)",
+      "graduatingStudents": "200+ (Verify exact NIRF PDF)",
+      "higherStudiesCount": "Majority cohort enters Ph.D. / Research fellowships",
+      "placedStudents": "Official detailed count not publicly split",
+      "placementPercentage": "Official data not publicly available",
+      "medianSalary": "₹8.00 LPA (NIRF 5-Year UG Median reported; verify latest)",
+      "averageSalary": "Official data not publicly available",
+      "highestSalary": "Official data not publicly available",
+      "minimumSalary": "Official data not publicly available",
+      "topSectorsAndRecruiters": "Data Science, R&D Labs, Publishing, Scientific Software",
+      "sourceLabel": "NIRF Report & IISER Mohali Opportunity Cell",
+      "officialUrl": "https://www.iisermohali.ac.in/students/opportunity-cell",
+      "dataStatus": "Partial Official Data"
+    },
+    {
+      "id": "pl-bhopal",
+      "institutionId": "iiser-bhopal",
+      "institutionName": "IISER Bhopal",
+      "academicYear": "2023–24 (NIRF / CCD Reference)",
+      "programScope": "5-Year BS-MS, 4-Year BS & B.Tech (Distinguished by Engineering/Econ streams)",
+      "graduatingStudents": "250+ across BS-MS & BS/B.Tech",
+      "higherStudiesCount": "120+ pursuing Ph.D. / MS abroad & India",
+      "placedStudents": "75+ placed across BS/B.Tech & BS-MS",
+      "placementPercentage": "Higher placement participation in B.Tech / Data Science & Economics",
+      "medianSalary": "₹7.50 LPA – ₹9.00 LPA (4-Year / 5-Year NIRF reported medians; verify latest)",
+      "averageSalary": "Official data not publicly available",
+      "highestSalary": "Official data not publicly available (Verify CCD annual brochure)",
+      "minimumSalary": "Official data not publicly available",
+      "topSectorsAndRecruiters": "Software & AI, Quantitative Analytics, Core Chemical Engg, Consulting, Pharma",
+      "sourceLabel": "IISER Bhopal Centre for Career Development (CCD) & NIRF",
+      "officialUrl": "https://www.iiserb.ac.in/ccd",
+      "dataStatus": "Partial Official Data"
+    },
+    {
+      "id": "pl-tvm",
+      "institutionId": "iiser-tvm",
+      "institutionName": "IISER Thiruvananthapuram",
+      "academicYear": "2023–24 (NIRF Submission)",
+      "programScope": "5-Year BS-MS & 2-Year M.Sc.",
+      "graduatingStudents": "210+ (Verify exact NIRF PDF)",
+      "higherStudiesCount": "Majority cohort pursues Ph.D. in India & abroad",
+      "placedStudents": "Official detailed count not publicly available",
+      "placementPercentage": "Official data not publicly available",
+      "medianSalary": "₹7.00 LPA – ₹8.00 LPA (Verify latest NIRF PDF)",
+      "averageSalary": "Official data not publicly available",
+      "highestSalary": "Official data not publicly available",
+      "minimumSalary": "Official data not publicly available",
+      "topSectorsAndRecruiters": "Biotech, Photonics, Data Analytics, Scientific R&D",
+      "sourceLabel": "IISER TVM Placement Cell & NIRF",
+      "officialUrl": "https://www.iisertvm.ac.in/pages/placement_cell",
+      "dataStatus": "Partial Official Data"
+    },
+    {
+      "id": "pl-tirupati",
+      "institutionId": "iiser-tirupati",
+      "institutionName": "IISER Tirupati",
+      "academicYear": "2024–25 Reference",
+      "programScope": "5-Year BS-MS",
+      "graduatingStudents": "Official data not publicly available",
+      "higherStudiesCount": "High proportion pursuing Ph.D. (verify annual report)",
+      "placedStudents": "Official data not publicly available",
+      "placementPercentage": "Official data not publicly available",
+      "medianSalary": "Official data not publicly available",
+      "averageSalary": "Official data not publicly available",
+      "highestSalary": "Official data not publicly available",
+      "minimumSalary": "Official data not publicly available",
+      "topSectorsAndRecruiters": "Official data not publicly available — verify via Placement Cell",
+      "sourceLabel": "IISER Tirupati Placement Cell",
+      "officialUrl": "https://www.iisertirupati.ac.in/placement-cell/",
+      "dataStatus": "Official data not publicly available"
+    },
+    {
+      "id": "pl-berhampur",
+      "institutionId": "iiser-berhampur",
+      "institutionName": "IISER Berhampur",
+      "academicYear": "2024–25 Reference",
+      "programScope": "5-Year BS-MS",
+      "graduatingStudents": "Official data not publicly available",
+      "higherStudiesCount": "Significant proportion entering doctoral fellowships",
+      "placedStudents": "Official data not publicly available",
+      "placementPercentage": "Official data not publicly available",
+      "medianSalary": "Official data not publicly available",
+      "averageSalary": "Official data not publicly available",
+      "highestSalary": "Official data not publicly available",
+      "minimumSalary": "Official data not publicly available",
+      "topSectorsAndRecruiters": "Official data not publicly available — verify via Placement Cell",
+      "sourceLabel": "IISER Berhampur Placement Cell",
+      "officialUrl": "https://www.iiserbpr.ac.in/student-corner/placement-cell",
+      "dataStatus": "Official data not publicly available"
+    }
+  ],
+  "salaries": [
+    {
+      "id": "sal-jrf-srf",
+      "role": "Junior / Senior Research Fellow (Ph.D. JRF/SRF)",
+      "sector": "Fellowship / Academia",
+      "entryLevel": "₹37,000/mo + HRA (~₹5.0–5.8 LPA eq.)",
+      "midCareer": "₹42,000/mo + HRA (SRF, Yr 3–5)",
+      "experienced": "₹58,000–₹67,000/mo + HRA (Postdoc RA I–III)",
+      "payStructureNote": "Tax-exempt fellowship/stipend (verify current tax applicability); no PF deduction; annual contingency ₹20k–30k.",
+      "verificationType": "Verified Official Notification / Guidelines",
+      "sourceAndYear": "DST Office Memorandum (Revision effective Jan 2023, active 2025–26)"
+    },
+    {
+      "id": "sal-govt-scientist",
+      "role": "Scientist ‘B’ / Scientific Officer (ISRO, DRDO, BARC, CSIR)",
+      "sector": "Government R&D",
+      "entryLevel": "Pay Level 10: ₹56,100 Basic (~₹10.5–13.0 LPA Gross)",
+      "midCareer": "Pay Level 11–12: ₹67,700–₹78,800 Basic (~₹14–19 LPA Gross)",
+      "experienced": "Pay Level 13–14: ₹1,23,100–₹1,44,200 Basic (~₹24–35 LPA Gross)",
+      "payStructureNote": "Includes Basic Pay + Dearness Allowance (DA) + HRA (10%–30% by city) + Transport + NPS + CGHS Medical.",
+      "verificationType": "Verified Official Notification / Guidelines",
+      "sourceAndYear": "7th Central Pay Commission (CPC) Pay Matrix & Official Recruitment Notices"
+    },
+    {
+      "id": "sal-faculty",
+      "role": "Assistant / Associate Professor (IISERs, IITs, Central Univs)",
+      "sector": "Fellowship / Academia",
+      "entryLevel": "Academic Level 10–12: ₹57,700–₹1,01,500 Basic (~₹12–20 LPA Gross)",
+      "midCareer": "Level 13A1/13A2: ₹1,31,400–₹1,39,600 Basic (~₹24–28 LPA Gross)",
+      "experienced": "Level 14A (Professor): ₹1,59,100+ Basic (~₹30–38+ LPA Gross)",
+      "payStructureNote": "7th CPC Academic Pay Matrix + DA + campus housing or HRA + CPDA research/travel grants.",
+      "verificationType": "Verified Official Notification / Guidelines",
+      "sourceAndYear": "MoE / UGC 7th CPC Academic Pay Structure"
+    },
+    {
+      "id": "sal-biotech-pharma",
+      "role": "Biotech / Pharma / Chemical R&D Scientist",
+      "sector": "Private Industry / Biotech",
+      "entryLevel": "₹5.5 – ₹9.5 LPA (Estimated CTC)",
+      "midCareer": "₹11.0 – ₹20.0 LPA (Estimated CTC)",
+      "experienced": "₹22.0 – ₹40.0+ LPA (Estimated CTC, Ph.D./Lead)",
+      "payStructureNote": "Corporate CTC includes Basic, Variable Performance Bonus (10–20%), PF, Gratuity, and Health Insurance.",
+      "verificationType": "Estimated Range",
+      "sourceAndYear": "Industry & Life-Sciences Recruitment Benchmarks (2025–26 Estimate)"
+    },
+    {
+      "id": "sal-data-ai",
+      "role": "Data Scientist / Quantitative Analyst / Software Engineer",
+      "sector": "Data Science & AI",
+      "entryLevel": "₹8.0 – ₹18.0 LPA (Estimated CTC)",
+      "midCareer": "₹18.0 – ₹36.0 LPA (Estimated CTC)",
+      "experienced": "₹40.0 – ₹75.0+ LPA (Estimated CTC)",
+      "payStructureNote": "Tech/Quant CTC often includes base salary, joining bonus, annual performance bonus, and ESOPs/RSUs.",
+      "verificationType": "Estimated Range",
+      "sourceAndYear": "Technology & Analytics Market Benchmarks (2025–26 Estimate)"
+    },
+    {
+      "id": "sal-intl-research",
+      "role": "International Ph.D. & Postdoctoral Researcher (US / EU / UK)",
+      "sector": "International Research",
+      "entryLevel": "$30k–$45k/yr (US PhD) · €2,000–€3,200/mo (EU PhD)",
+      "midCareer": "$58k–$72k/yr (US Postdoc NIH scale) · €4,000–€5,500/mo (EU)",
+      "experienced": "$90k–$160k+/yr (Faculty / Industry Senior Scientist)",
+      "payStructureNote": "Reported in local currency gross stipends/salaries; compare against local cost of living, taxes, and health coverage.",
+      "verificationType": "Estimated Range",
+      "sourceAndYear": "NIH NRSA / Marie Skłodowska-Curie / University Stipend Benchmarks"
+    }
+  ],
+  "courses": [
+    {
+      "id": "bs-ms-dual",
+      "title": "5-Year BS-MS Dual Degree Programme",
+      "degreeType": "BS-MS",
+      "duration": "5 Years (10 Semesters)",
+      "eligibility": "Class 12 (or equivalent) pass with Science stream and minimum 60% aggregate (55% for SC/ST/PwD). Admission exclusively through IAT.",
+      "admissionProcedure": "IISER Aptitude Test (IAT) score followed by centralized online counselling at iiseradmission.in.",
+      "offeredAt": [
+        "IISER Pune",
+        "IISER Kolkata",
+        "IISER Mohali",
+        "IISER Bhopal",
+        "IISER Thiruvananthapuram",
+        "IISER Tirupati",
+        "IISER Berhampur"
+      ],
+      "subjectsOffered": [
+        "Biology",
+        "Chemistry",
+        "Mathematics",
+        "Physics",
+        "Earth & Climate/Environmental Sciences",
+        "Data Science Minors",
+        "Humanities & Social Sciences"
+      ],
+      "curriculumSummary": "Years 1–2 cover compulsory interdisciplinary foundation courses across Physics, Chemistry, Biology, Maths, and Computing; Years 3–4 allow choosing a Major (and optional Minor); Year 5 is a full-year original MS research thesis.",
+      "semesterStructure": "Semesters 1–4: Core Interdisciplinary Sciences · Semesters 5–8: Major + Electives · Semesters 9–10: Full-Time Master’s Research Thesis.",
+      "researchOpportunities": "Mandatory 1-year Master’s thesis in frontier research laboratories, plus summer/winter research internships.",
+      "internshipOpportunities": "INSPIRE/IASc summer fellowships, international DAAD/MITACS internships, and R&D industry internships.",
+      "higherEducationOptions": [
+        "Direct Ph.D. in India (TIFR, IISc, IITs, IISERs)",
+        "Ph.D. in US/Europe/UK/Japan",
+        "MBA / Public Policy"
+      ],
+      "careerOptions": [
+        "Research Scientist",
+        "Data Scientist",
+        "Biotech/Pharma R&D",
+        "Scientific Officer (ISRO/DRDO/BARC)",
+        "Faculty/Academic"
+      ],
+      "salaryProspects": "PhD fellowships start at ₹37,000/mo + HRA (India) or $30k–$45k/yr (abroad); Industry roles typically ₹6–14 LPA (estimated).",
+      "officialSourceUrl": "https://www.iiseradmission.in"
+    },
+    {
+      "id": "bs-4yr",
+      "title": "4-Year Bachelor of Science (BS) Programmes",
+      "degreeType": "BS",
+      "duration": "4 Years (8 Semesters)",
+      "eligibility": "Class 12 with Mathematics (mandatory for Economic Sciences & Economic/Statistical Sciences) and minimum 60% (55% SC/ST/PwD).",
+      "admissionProcedure": "Centralized IAT admission portal (iiseradmission.in) with programme-specific Mathematics requirement.",
+      "offeredAt": [
+        "IISER Bhopal (Economic Sciences)",
+        "IISER Tirupati (Economic & Statistical Sciences — verify active cycle)"
+      ],
+      "subjectsOffered": [
+        "Microeconomics & Macroeconomics",
+        "Econometrics",
+        "Probability & Statistics",
+        "Data Analytics",
+        "Mathematics",
+        "Computational Social Science"
+      ],
+      "curriculumSummary": "Quantitative economics, statistical modelling, and computational finance paired with interdisciplinary science foundation courses.",
+      "semesterStructure": "Semesters 1–2: Core Foundations · Semesters 3–6: Core Economics/Statistics · Semesters 7–8: Electives & Capstone Research Project.",
+      "researchOpportunities": "Undergraduate thesis in econometrics, development economics, financial mathematics, or policy analytics.",
+      "internshipOpportunities": "RBI, NITI Aayog, economic think-tanks, quantitative finance, and data analytics firms.",
+      "higherEducationOptions": [
+        "Ph.D. in Economics / Statistics",
+        "M.Sc./MS Quantitative Finance",
+        "MBA / MPP"
+      ],
+      "careerOptions": [
+        "Economist",
+        "Quantitative Analyst",
+        "Data Scientist",
+        "Policy Analyst",
+        "Risk Consultant"
+      ],
+      "salaryProspects": "Estimated entry industry range ₹7–15 LPA in analytics, consulting, and finance.",
+      "officialSourceUrl": "https://www.iiserb.ac.in"
+    },
+    {
+      "id": "btech-4yr",
+      "title": "4-Year B.Tech. Programmes (IISER Bhopal)",
+      "degreeType": "B.Tech",
+      "duration": "4 Years (8 Semesters)",
+      "eligibility": "Class 12 with Physics, Chemistry, and Mathematics (PCM mandatory) and 60% aggregate (55% SC/ST/PwD).",
+      "admissionProcedure": "IAT score and centralized seat allocation through iiseradmission.in (verify active B.Tech counselling tab).",
+      "offeredAt": [
+        "IISER Bhopal (Chemical Engineering, Data Science & Engineering, Electrical Engineering & Computer Science)"
+      ],
+      "subjectsOffered": [
+        "Chemical Engineering",
+        "Data Science & Machine Learning",
+        "Electrical Engineering & Computer Science",
+        "Applied Physics & Mathematics"
+      ],
+      "curriculumSummary": "Uniquely embeds engineering design and computing inside a pure-science research campus, combining strong theoretical math/science with industry-ready labs.",
+      "semesterStructure": "Semesters 1–2: Science & Engineering Core · Semesters 3–6: Branch Core & Labs · Semesters 7–8: Technical Electives & B.Tech Project.",
+      "researchOpportunities": "Undergraduate research in AI/ML, semiconductor devices, sustainable chemical processes, and robotics.",
+      "internshipOpportunities": "6-month or summer internships in tech giants, chemical process industries, and semiconductor R&D.",
+      "higherEducationOptions": [
+        "M.Tech / MS abroad",
+        "Direct Ph.D. in Engineering or Sciences",
+        "MBA"
+      ],
+      "careerOptions": [
+        "Software & AI Engineer",
+        "Data Scientist",
+        "Chemical Process Engineer",
+        "VLSI / Hardware Engineer",
+        "R&D Engineer"
+      ],
+      "salaryProspects": "Estimated entry corporate range ₹8–18 LPA depending on role and company (verify CCD Bhopal reports).",
+      "officialSourceUrl": "https://www.iiserb.ac.in"
+    },
+    {
+      "id": "msc-2yr",
+      "title": "2-Year Master of Science (M.Sc.) Programmes",
+      "degreeType": "MSc",
+      "duration": "2 Years (4 Semesters)",
+      "eligibility": "Bachelor’s degree (B.Sc. / B.Tech. / equivalent) in relevant science discipline with minimum 60% or CGPA 6.0/10.",
+      "admissionProcedure": "IIT JAM score and/or institute-specific screening test & interview (check each IISER’s PG admission notice).",
+      "offeredAt": [
+        "IISER Pune (Maths, Chem)",
+        "IISER Thiruvananthapuram (Bio, Chem, Physics, Maths)",
+        "IISER Kolkata / Bhopal (Select tracks — verify active)"
+      ],
+      "subjectsOffered": [
+        "Biology",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "Space Physics / Sustainability (select campuses)"
+      ],
+      "curriculumSummary": "Focused postgraduate coursework in the chosen discipline culminating in a 1-year or 1-semester Master’s dissertation.",
+      "semesterStructure": "Semesters 1–2: Core PG Theory & Labs · Semesters 3–4: Advanced Electives & M.Sc. Thesis.",
+      "researchOpportunities": "Direct access to advanced instrumentation and research groups on par with BS-MS Year 4–5.",
+      "internshipOpportunities": "Summer research projects between Year 1 and Year 2 at national/international labs.",
+      "higherEducationOptions": [
+        "Ph.D. in India (via NET/GATE)",
+        "Ph.D. Abroad"
+      ],
+      "careerOptions": [
+        "Research Associate",
+        "Lecturer / Educator",
+        "Analytical Chemist",
+        "Data Analyst"
+      ],
+      "salaryProspects": "Comparable to M.Sc. graduates from premier CFTIs (₹5–10 LPA estimated industry; ₹37k+HRA for PhD JRF).",
+      "officialSourceUrl": "https://www.iisertvm.ac.in"
+    },
+    {
+      "id": "int-phd",
+      "title": "Integrated Ph.D. (Int-PhD) Programme",
+      "degreeType": "Integrated PhD",
+      "duration": "5–7 Years (MS + Ph.D.)",
+      "eligibility": "Bachelor’s degree (B.Sc./B.E./B.Tech.) in Science/Engineering with strong academic record (typically ≥60%).",
+      "admissionProcedure": "Valid IIT JAM / JGEEBILS / NBHM / JEST score followed by rigorous institute interviews.",
+      "offeredAt": [
+        "All 7 IISERs (Pune, Kolkata, Mohali, Bhopal, TVM, Tirupati, Berhampur)"
+      ],
+      "subjectsOffered": [
+        "Biological Sciences",
+        "Chemical Sciences",
+        "Physical Sciences",
+        "Mathematical Sciences"
+      ],
+      "curriculumSummary": "Combines 1.5–2 years of advanced Master’s coursework and lab rotations followed by qualifying exams and full-time doctoral thesis research.",
+      "semesterStructure": "Years 1–2: Coursework & Rotations (Fellowship ₹12k–₹16k/mo approx. MS phase) · Years 3+: Full Ph.D. JRF/SRF Fellowship.",
+      "researchOpportunities": "Full doctoral dissertation leading to peer-reviewed international publications and patents.",
+      "internshipOpportunities": "Conference travel grants, international lab visits, and joint doctoral mentorship.",
+      "higherEducationOptions": [
+        "Postdoctoral Fellowships globally",
+        "Faculty / Scientist tracks"
+      ],
+      "careerOptions": [
+        "Postdoctoral Fellow",
+        "Assistant Professor",
+        "Principal R&D Scientist",
+        "Scientific Officer"
+      ],
+      "salaryProspects": "Funded fellowship during study (MS phase stipend + JRF ₹37,000/SRF ₹42,000 + HRA upon PhD registration; verify institute circular).",
+      "officialSourceUrl": "https://www.iiserpune.ac.in"
+    },
+    {
+      "id": "phd-prog",
+      "title": "Doctor of Philosophy (Ph.D.) & Postdoctoral Fellowships",
+      "degreeType": "PhD",
+      "duration": "Ph.D.: 4–6 Years · Postdoc: 1–3 Years",
+      "eligibility": "Master’s degree (M.Sc./M.Tech./BS-MS) with valid CSIR-UGC NET (JRF), GATE, JEST, DBT-JRF, ICMR-JRF, or INSPIRE Fellowship.",
+      "admissionProcedure": "Direct application to individual IISER admission portals twice a year (August & January cycles) + departmental interviews.",
+      "offeredAt": [
+        "All 7 IISERs across Sciences, Engineering, Earth Sciences & Humanities"
+      ],
+      "subjectsOffered": [
+        "All Basic Sciences",
+        "Earth & Climate Sciences",
+        "Engineering Sciences",
+        "Data Science",
+        "Humanities & Social Sciences"
+      ],
+      "curriculumSummary": "Brief doctoral coursework (6–12 months) followed by comprehensive exam, independent research thesis, publications, and viva voce.",
+      "semesterStructure": "Year 1: Coursework & Proposal · Years 2–5+: Independent Research, Teaching Assistantship & Thesis Defense.",
+      "researchOpportunities": "Lead investigator-style research supported by DST, DBT, SERB/ANRF, and international funding grants.",
+      "internshipOpportunities": "Visiting scholar exchanges, industrial R&D collaborations, and international conferences.",
+      "higherEducationOptions": [
+        "International Postdoc (US, EU, UK, Japan)",
+        "Faculty Positions (IITs, IISERs, Universities)"
+      ],
+      "careerOptions": [
+        "University Faculty / Professor",
+        "Senior R&D Scientist",
+        "Principal Investigator",
+        "Policy Advisor"
+      ],
+      "salaryProspects": "Official DST/CSIR JRF ₹37,000/mo + HRA; SRF ₹42,000/mo + HRA; RA-I Postdoc ₹58,000/mo + HRA.",
+      "officialSourceUrl": "https://www.iiserkol.ac.in"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "iiser-pune",
+      "name": "Indian Institute of Science Education and Research Pune",
+      "shortName": "IISER Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "establishedYear": 2006,
+      "campusAddress": "Dr. Homi Bhabha Road, Pashan, Pune – 411008, Maharashtra, India",
+      "officialWebsite": "https://www.iiserpune.ac.in",
+      "placementCellUrl": "https://www.iiserpune.ac.in/students/career-development-cell",
+      "researchPortalUrl": "https://www.iiserpune.ac.in/research",
+      "recruitmentUrl": "https://www.iiserpune.ac.in/opportunities",
+      "imageUrl": "/src/assets/images/hero_iiser_campus_1795008210274.jpg",
+      "history": "Established in 2006 by the Ministry of Education (then MHRD), Government of India, IISER Pune was among the first two IISERs founded alongside IISER Kolkata. It was declared an Institution of National Importance under the NITSER (Amendment) Act, 2012, and occupies a 98-acre green campus adjacent to NCL Pune.",
+      "vision": "To create an internationally competitive centre of excellence where undergraduate teaching is seamlessly integrated with frontier scientific research.",
+      "mission": "To nurture curious minds into world-class scientists, educators, and innovators across basic and interdisciplinary sciences through inquiry-led pedagogy.",
+      "departments": [
+        "Department of Biology",
+        "Department of Chemistry",
+        "Department of Physics",
+        "Department of Mathematics",
+        "Department of Earth and Climate Science",
+        "Department of Data Science",
+        "Department of Humanities and Social Sciences",
+        "Science Education Division"
+      ],
+      "ugProgrammes": [
+        "5-Year BS-MS Dual Degree"
+      ],
+      "pgProgrammes": [
+        "M.Sc. in Mathematics",
+        "M.Sc. in Chemistry",
+        "M.Sc. in Biotechnology / Life Sciences (verify active intake)"
+      ],
+      "phdProgrammes": [
+        "Integrated Ph.D. (Biology, Chemistry, Physics, Mathematics)",
+        "Ph.D. across all 7 Departments",
+        "Postdoctoral Fellowships"
+      ],
+      "researchAreas": [
+        "Quantum Computing & Condensed Matter Physics",
+        "Structural & Chemical Biology",
+        "Evolutionary Ecology & Neurobiology",
+        "Climate Modelling & Monsoon Dynamics",
+        "Organic Synthesis & Catalysis",
+        "Algebraic Geometry & Number Theory"
+      ],
+      "researchLabs": [
+        "National Facility for Gene Function in Health and Disease",
+        "I-HUB Quantum Technology Foundation (DST NM-ICPS)",
+        "Cryo-EM & NMR Spectroscopy Core Facility",
+        "High-Performance Computing (HPC) Cluster"
+      ],
+      "scientificInfrastructure": [
+        "500/600/800 MHz NMR Spectrometers",
+        "Confocal & Super-Resolution Microscopy Suite",
+        "Cleanroom & Nanofabrication Lab",
+        "X-Ray Diffraction & Mass Spectrometry Facilities"
+      ],
+      "libraryFacilities": "Smt. Indrani Balan Science Activity Centre & Central Library housing over 35,000+ books, e-journals (ScienceDirect, Springer, ACS, APS, Nature), and 24x7 reading rooms.",
+      "hostelFacilities": "Fully residential campus with separate multi-storey hostels for UG, PG, and PhD scholars, high-speed LAN/Wi-Fi, common study rooms, and laundry amenities.",
+      "sportsAndExtracurriculars": "Cricket & football grounds, indoor badminton/table tennis courts, gymnasium, Karavaan (annual cultural & science fest), Mimamsa (national science quiz), and 30+ student clubs.",
+      "campusFacilities": [
+        "24x7 Wellness & Medical Clinic",
+        "Daycare & Creche Facility",
+        "Guesthouse & Convention Centre",
+        "Dining Halls & Campus Cafeterias",
+        "AIC-IISER Pune (Atal Incubation Centre)"
+      ],
+      "studentLife": "Vibrant interdisciplinary peer culture with strong student governance, annual science outreach to schools via Smt. Indrani Balan Science Activity Centre, and summer research mentorship.",
+      "scholarshipsAndAid": "INSPIRE-SHE eligible students, SC/ST/PwD 100% tuition fee waiver per MoE rules, and institute PhD/Int-PhD fellowships.",
+      "admissionOverview": "BS-MS admissions exclusively via IISER Aptitude Test (IAT). M.Sc. admissions via JAM; Integrated Ph.D. via JAM/JGEEBILS/NBHM + interview; Ph.D. via CSIR-NET/GATE/INSPIRE + interview.",
+      "placementCellOverview": "Managed by the Career Development Cell (CDC), facilitating industry internships, R&D placements, consulting/analytics recruitment, and PhD application guidance.",
+      "alumniNetwork": "Strong global alumni network pursuing doctorates and postdocs at Max Planck Institutes, MIT, ETH Zurich, Cambridge, IISc, TIFR, and leading biotech/analytics firms.",
+      "internshipOpportunities": "Mandatory 5th-year MS thesis plus vibrant summer internship programmes (Summer Student Programme) funded via institute grants, IASc-INSA-NASI, and industry partners.",
+      "industryCollaborations": [
+        "Atal Incubation Centre (AIC-IISER Pune) deep-tech startups",
+        "DST I-HUB Quantum Technology Foundation",
+        "Pharmaceutical & fine chemical R&D partnerships"
+      ],
+      "internationalCollaborations": [
+        "Max Planck Partner Groups (Germany)",
+        "EMBO & Indo-French (CEFIPRA) research projects",
+        "University of Würzburg, Monash, & CNRS exchange ties"
+      ],
+      "contactEmail": "registrar@iiserpune.ac.in",
+      "contactPhone": "+91-20-2590-8001",
+      "nirfRank2024": "NIRF 2024 Overall: 29 · Research: 24 (verify latest NIRF cycle)",
+      "feeSummary": {
+        "academicYear": "2025–26 Reference (Verify current semester circular)",
+        "generalObcEwsSemesterTuition": "₹44,000 – ₹49,000 / semester (approx., varies slightly by batch)",
+        "scStPwdTuition": "100% Tuition Fee Waiver (₹0 tuition)",
+        "oneTimeAdmissionDeposit": "₹15,000 – ₹22,000 (incl. refundable caution deposit)",
+        "hostelAndOtherPerSemester": "₹12,000 – ₹18,000 / semester (Hostel, exam, medical & student welfare)",
+        "messChargesNote": "Paid separately per actual monthly mess bill (~₹3,500–₹4,500/month)",
+        "sourceNote": "Official IISER Pune Academic Fee Circular (iiserpune.ac.in)"
+      }
+    },
+    {
+      "id": "iiser-kolkata",
+      "name": "Indian Institute of Science Education and Research Kolkata",
+      "shortName": "IISER Kolkata",
+      "state": "West Bengal",
+      "city": "Mohanpur, Nadia",
+      "establishedYear": 2006,
+      "campusAddress": "Mohanpur, Nadia – 741246, West Bengal, India",
+      "officialWebsite": "https://www.iiserkol.ac.in",
+      "placementCellUrl": "https://www.iiserkol.ac.in/~placement/",
+      "researchPortalUrl": "https://www.iiserkol.ac.in/web/en/research/",
+      "recruitmentUrl": "https://www.iiserkol.ac.in/web/en/announcements/opportunities/",
+      "imageUrl": "/src/assets/images/campus_lab_research_1795008210854.jpg",
+      "history": "Founded in 2006 alongside IISER Pune, IISER Kolkata operates from a sprawling 201-acre residential campus at Mohanpur near Kalyani, West Bengal, recognized as an Institution of National Importance.",
+      "vision": "To build a global research university rooted in basic sciences and interdisciplinary discovery for societal and technological advancement.",
+      "mission": "To integrate rigorous classroom education with original laboratory and field research from the undergraduate level onwards.",
+      "departments": [
+        "Department of Biological Sciences",
+        "Department of Chemical Sciences",
+        "Department of Earth Sciences",
+        "Department of Mathematics and Statistics",
+        "Department of Physical Sciences",
+        "Centre of Excellence in Space Sciences India (CESSI)",
+        "Centre for Climate and Environmental Studies"
+      ],
+      "ugProgrammes": [
+        "5-Year BS-MS Dual Degree"
+      ],
+      "pgProgrammes": [
+        "M.Sc. in Space Physics / Sustainability / Chemical & Mathematical tracks (verify active intake)"
+      ],
+      "phdProgrammes": [
+        "Integrated Ph.D.",
+        "Ph.D. across Sciences & Interdisciplinary Centres",
+        "Postdoctoral Research"
+      ],
+      "researchAreas": [
+        "Solar & Space Physics (CESSI — Aditya-L1 collaborations)",
+        "Geochemistry, Himalayan Tectonics & Paleoclimate",
+        "Bio-inorganic Chemistry & Supramolecular Assemblies",
+        "Quantum Optics & Photonics",
+        "Infectious Disease Biology & Ecology"
+      ],
+      "researchLabs": [
+        "Centre of Excellence in Space Sciences India (CESSI)",
+        "National Centre for High Hydrostatic Pressure Research",
+        "Dirac Supercomputing Facility",
+        "Central Instrumentation Facility (FESEM, TEM, XRD, NMR)"
+      ],
+      "scientificInfrastructure": [
+        "Transmission Electron Microscope (TEM) & FESEM",
+        "Isotope Ratio Mass Spectrometry (Earth Sciences)",
+        "Magnetometer & Solar Observatory Instrumentation",
+        "BSL-2 Cell Culture & Genomics Suite"
+      ],
+      "libraryFacilities": "Central Library with extensive print collections, remote VPN access to major international journals, institutional DSpace repository, and air-conditioned reading zones.",
+      "hostelFacilities": "Three major hostel complexes (Netaji Subhas Chandra Bose, Ishwar Chandra Vidyasagar, and Nivedita Hall) with single/double rooms, Wi-Fi, and common lounges.",
+      "sportsAndExtracurriculars": "Sports complex for athletics, football, basketball, lawn tennis, swimming/indoor sports, plus Inquivesta (India’s first annual science fest) and cultural societies.",
+      "campusFacilities": [
+        "Campus Medical Unit & Ambulance",
+        "Research Complex & Lecture Hall Complex",
+        "RISE Foundation (Technology Business Incubator)",
+        "Bank, Post Office & Shopping Complex"
+      ],
+      "studentLife": "Strong academic culture with active science clubs (Slash, Astronomy Club, Bio-Club), field expeditions for Earth Sciences, and annual inter-IISER sports meets (IISM).",
+      "scholarshipsAndAid": "INSPIRE-SHE, MoE SC/ST/PwD tuition waivers, state/central NSP scholarships, and external summer fellowships.",
+      "admissionOverview": "BS-MS admission via IAT (iiseradmission.in). Integrated Ph.D. and Ph.D. admissions conducted through institute portals using JAM/NET/GATE/JEST scores and interviews.",
+      "placementCellOverview": "The Placement & Career Counselling Cell supports internships, industry drives (R&D, data analytics, ed-tech, pharma), and doctoral placements globally.",
+      "alumniNetwork": "Over 15 graduating BS-MS cohorts placed across top international universities (Stanford, Caltech, Oxford, ETH) and Indian research institutes (TIFR, IISc, BARC, ISRO).",
+      "internshipOpportunities": "Dedicated Summer Research Programme (SRP) welcoming students nationwide alongside international summer fellowships (DAAD WISE, MITACS, Charpak).",
+      "industryCollaborations": [
+        "RISE Foundation IISER Kolkata Incubator",
+        "ISRO Aditya-L1 payload science collaboration via CESSI",
+        "Materials & specialty chemical industry partnerships"
+      ],
+      "internationalCollaborations": [
+        "Max Planck & CNRS joint laboratories",
+        "Global solar physics consortia",
+        "Indo-US & Indo-UK academic mobility grants"
+      ],
+      "contactEmail": "registrar@iiserkol.ac.in",
+      "contactPhone": "+91-33-6136-0000",
+      "nirfRank2024": "NIRF 2024 Overall: 61 (verify latest NIRF cycle)",
+      "feeSummary": {
+        "academicYear": "2025–26 Reference (Verify current semester circular)",
+        "generalObcEwsSemesterTuition": "₹44,000 – ₹48,500 / semester (approx.)",
+        "scStPwdTuition": "100% Tuition Fee Waiver (₹0 tuition)",
+        "oneTimeAdmissionDeposit": "₹15,000 – ₹20,000",
+        "hostelAndOtherPerSemester": "₹10,000 – ₹16,000 / semester",
+        "messChargesNote": "Separate monthly mess charges based on actual consumption (~₹3,200–₹4,200/month)",
+        "sourceNote": "Official IISER Kolkata Fee Structure (iiserkol.ac.in)"
+      }
+    },
+    {
+      "id": "iiser-mohali",
+      "name": "Indian Institute of Science Education and Research Mohali",
+      "shortName": "IISER Mohali",
+      "state": "Punjab",
+      "city": "SAS Nagar (Mohali)",
+      "establishedYear": 2007,
+      "campusAddress": "Knowledge City, Sector 81, SAS Nagar, Manauli PO – 140306, Punjab, India",
+      "officialWebsite": "https://www.iisermohali.ac.in",
+      "placementCellUrl": "https://www.iisermohali.ac.in/students/opportunity-cell",
+      "researchPortalUrl": "https://www.iisermohali.ac.in/research",
+      "recruitmentUrl": "https://www.iisermohali.ac.in/opportunities",
+      "imageUrl": "/src/assets/images/campus_library_study_1795008211073.jpg",
+      "history": "Established in 2007 in Punjab’s Knowledge City (Sector 81, SAS Nagar), IISER Mohali is situated near Chandigarh and collaborates closely with regional institutions like IMTECH, NIPER, and PU.",
+      "vision": "To advance the frontiers of scientific inquiry while training a new generation of researchers grounded in interdisciplinary science and humanities.",
+      "mission": "To provide flexible, research-rich undergraduate and doctoral curricula combining fundamental theory, experimentation, and computational science.",
+      "departments": [
+        "Department of Biological Sciences",
+        "Department of Chemical Sciences",
+        "Department of Mathematical Sciences",
+        "Department of Physical Sciences",
+        "Department of Earth and Environmental Sciences",
+        "Department of Humanities and Social Sciences"
+      ],
+      "ugProgrammes": [
+        "5-Year BS-MS Dual Degree"
+      ],
+      "pgProgrammes": [
+        "Integrated Master’s & Ph.D. tracks (check active cycle)"
+      ],
+      "phdProgrammes": [
+        "Integrated Ph.D.",
+        "Ph.D. across Sciences & Humanities/Social Sciences",
+        "Postdoctoral Fellowships"
+      ],
+      "researchAreas": [
+        "Quantum Information & Low-Temperature Physics",
+        "Atmospheric Chemistry & Air Quality Science",
+        "Evolutionary Genetics & Molecular Microbiology",
+        "Number Theory, Topology & Functional Analysis",
+        "History of Science & Environmental Humanities"
+      ],
+      "researchLabs": [
+        "Atmospheric Chemistry Facility (PTR-MS real-time monitoring)",
+        "Central Analytical Facility (NMR, Single Crystal XRD, SEM)",
+        "High-Performance Computing Cluster",
+        "Animal House & Plant Growth Facilities"
+      ],
+      "scientificInfrastructure": [
+        "400/600 MHz NMR & MALDI-TOF Mass Spectrometer",
+        "SQUID Magnetometer & Cryogenics Lab",
+        "Proton-Transfer-Reaction Mass Spectrometer (PTR-MS)",
+        "Confocal Imaging & Flow Cytometry Core"
+      ],
+      "libraryFacilities": "Iconic 7-storey Library & Informatics Centre featuring 24-hour reading areas during exams, digital journal subscriptions, and collaborative seminar spaces.",
+      "hostelFacilities": "Four large residential hostels (Hostels 5, 6, 7, 8) inside Sector 81 campus with Wi-Fi, music/common rooms, and visitor lounges.",
+      "sportsAndExtracurriculars": "Athletic track, cricket/football grounds, tennis/basketball/volleyball courts, gymnasium, Insomnia (annual cultural fest), and active astronomy/robotics clubs.",
+      "campusFacilities": [
+        "Health Centre with resident doctors",
+        "Lecture Hall Complex & Auditorium",
+        "Computer Centre & Central Workshop",
+        "Dining & Night Canteen Facilities"
+      ],
+      "studentLife": "Unique emphasis on integrating Humanities & Social Sciences alongside pure sciences, encouraging broad intellectual dialogue and interdisciplinary minors (Data Science, Astronomy).",
+      "scholarshipsAndAid": "INSPIRE-SHE, MoE category tuition exemptions, and institute teaching/research assistantships for doctoral scholars.",
+      "admissionOverview": "BS-MS entry through IAT only. Int-PhD and PhD admissions held twice a year via national fellowships (NET/GATE/JEST/NBHM/JAM) and interviews.",
+      "placementCellOverview": "Opportunity Cell (Student Placement Cell) coordinates campus recruitment, research internship outreach, and higher-studies workshops.",
+      "alumniNetwork": "Alumni actively placed in global PhD programs, CRIKC partner labs, biotech startups, and quantitative analytics roles.",
+      "internshipOpportunities": "Strong winter and summer research internship culture leveraging Chandigarh Region Innovation & Knowledge Cluster (CRIKC) labs.",
+      "industryCollaborations": [
+        "CRIKC regional research consortium (PGIMER, NIPER, CSIO, IMTECH)",
+        "Atmospheric & environmental monitoring projects"
+      ],
+      "internationalCollaborations": [
+        "Indo-German & Indo-French research fellowships",
+        "Joint cosmology & condensed matter collaborations"
+      ],
+      "contactEmail": "registrar@iisermohali.ac.in",
+      "contactPhone": "+91-172-2240266",
+      "nirfRank2024": "NIRF 2024 Overall: 64 (verify latest NIRF cycle)",
+      "feeSummary": {
+        "academicYear": "2025–26 Reference (Verify current semester circular)",
+        "generalObcEwsSemesterTuition": "₹44,000 – ₹48,000 / semester (approx.)",
+        "scStPwdTuition": "100% Tuition Fee Waiver (₹0 tuition)",
+        "oneTimeAdmissionDeposit": "₹15,000 – ₹21,000",
+        "hostelAndOtherPerSemester": "₹11,000 – ₹15,500 / semester",
+        "messChargesNote": "Separate monthly mess charges (~₹3,400–₹4,200/month)",
+        "sourceNote": "Official IISER Mohali Fee Structure (iisermohali.ac.in)"
+      }
+    },
+    {
+      "id": "iiser-bhopal",
+      "name": "Indian Institute of Science Education and Research Bhopal",
+      "shortName": "IISER Bhopal",
+      "state": "Madhya Pradesh",
+      "city": "Bhopal",
+      "establishedYear": 2008,
+      "campusAddress": "Bhopal Bypass Road, Bhauri, Bhopal – 462066, Madhya Pradesh, India",
+      "officialWebsite": "https://www.iiserb.ac.in",
+      "placementCellUrl": "https://www.iiserb.ac.in/ccd",
+      "researchPortalUrl": "https://www.iiserb.ac.in/research",
+      "recruitmentUrl": "https://www.iiserb.ac.in/vacancies",
+      "imageUrl": "/src/assets/images/campus_lecture_hall_1795008211996.jpg",
+      "history": "Established in 2008, IISER Bhopal occupies a sprawling 200-acre campus in Bhauri. It is uniquely distinguished among IISERs for introducing 4-year BS Engineering Sciences, Economic Sciences, and 4-year B.Tech programmes alongside the 5-year BS-MS.",
+      "vision": "To build an academic institution bridging fundamental natural sciences, engineering sciences, and economic sciences for national development.",
+      "mission": "To deliver world-class education and translational research while fostering entrepreneurship and interdisciplinary problem-solving.",
+      "departments": [
+        "Department of Biological Sciences",
+        "Department of Chemistry",
+        "Department of Earth and Environmental Sciences",
+        "Department of Mathematics",
+        "Department of Physics",
+        "Department of Chemical Engineering",
+        "Department of Data Science and Engineering",
+        "Department of Electrical Engineering and Computer Science",
+        "Department of Economic Sciences",
+        "Department of Humanities and Social Sciences"
+      ],
+      "ugProgrammes": [
+        "5-Year BS-MS Dual Degree (Natural Sciences)",
+        "4-Year B.Tech. (Chemical Engineering, Data Science & Engineering, Electrical Engineering & Computer Science)",
+        "4-Year BS (Economic Sciences)"
+      ],
+      "pgProgrammes": [
+        "M.Sc. Programmes (check active departmental notifications)"
+      ],
+      "phdProgrammes": [
+        "Integrated Ph.D.",
+        "Ph.D. across Natural Sciences, Engineering Sciences & Economics",
+        "Postdoctoral Research"
+      ],
+      "researchAreas": [
+        "Data Science, Machine Learning & Computer Vision",
+        "Catalysis, Green Chemistry & Chemical Engineering",
+        "Structural Biology, Epigenetics & Virology",
+        "Condensed Matter, High-Energy & Astrophysics",
+        "Development Economics & Econometrics"
+      ],
+      "researchLabs": [
+        "Centre for Research on Environment and Sustainable Technologies (CREST)",
+        "Central Instrumentation Facility (FESEM, TEM, XPS, 500/700 MHz NMR)",
+        "Innovation and Incubation Centre for Entrepreneurship (IICE)",
+        "High-Performance Computing & Robotics Labs"
+      ],
+      "scientificInfrastructure": [
+        "700 MHz & 500 MHz NMR Spectrometers",
+        "X-Ray Photoelectron Spectroscopy (XPS) & HR-TEM",
+        "BSL-2/3 Molecular Virology & Genomics Facilities",
+        "Chemical Engineering Pilot & Process Control Labs"
+      ],
+      "libraryFacilities": "Central Library equipped with digital research databases, RFID automation, spacious reading wings, and collaborative study pods.",
+      "hostelFacilities": "Eight modern hostels on the Bhauri campus housing UG, PG, and PhD students with high-speed internet, sports courts, and common rooms.",
+      "sportsAndExtracurriculars": "Large multi-sport stadium, synthetic courts, swimming/gym facilities, Enthuzia (annual cultural fest), Singularity (science fest), and active coding/robotics clubs.",
+      "campusFacilities": [
+        "Institute Health Centre & Pharmacy",
+        "IICE (Technology Business Incubator)",
+        "Shopping Complex, Banks & Guest House",
+        "Auditorium & Academic Complex"
+      ],
+      "studentLife": "Blends pure-science inquiry with engineering and economics cohorts, yielding strong tech/coding clubs, entrepreneurship hackathons, and vibrant campus fests.",
+      "scholarshipsAndAid": "INSPIRE-SHE (for Natural Science BS-MS), MoE SC/ST/PwD tuition waivers, and merit-cum-means assistance.",
+      "admissionOverview": "Admissions to BS-MS, B.Tech, and BS Economic Sciences are conducted through IAT (verify specific Maths/stream eligibility for B.Tech/Economics in the official IAT brochure).",
+      "placementCellOverview": "Centre for Career Development (CCD) actively manages campus placements for B.Tech, BS, and BS-MS cohorts across tech, consulting, analytics, core engineering, and R&D.",
+      "alumniNetwork": "Graduates placed in global PhD programs as well as software, quantitative finance, chemical engineering, and data science organizations.",
+      "internshipOpportunities": "Structured industry & research internship pathways supported by CCD and IICE startups.",
+      "industryCollaborations": [
+        "Innovation & Incubation Centre for Entrepreneurship (IICE)",
+        "AI, telecom, and chemical process industry research grants"
+      ],
+      "internationalCollaborations": [
+        "MoUs with European, North American, and Japanese universities",
+        "Joint Indo-German and Indo-Australian research projects"
+      ],
+      "contactEmail": "registrar@iiserb.ac.in",
+      "contactPhone": "+91-755-269-2311",
+      "nirfRank2024": "NIRF 2024 Overall: 57 (verify latest NIRF cycle)",
+      "feeSummary": {
+        "academicYear": "2025–26 Reference (Verify current semester circular)",
+        "generalObcEwsSemesterTuition": "₹44,000 – ₹49,000 / semester (B.Tech/BS verify exact circular)",
+        "scStPwdTuition": "100% Tuition Fee Waiver (₹0 tuition)",
+        "oneTimeAdmissionDeposit": "₹15,000 – ₹22,000",
+        "hostelAndOtherPerSemester": "₹12,000 – ₹17,000 / semester",
+        "messChargesNote": "Separate monthly mess charges (~₹3,500–₹4,400/month)",
+        "sourceNote": "Official IISER Bhopal Academic Fee Portal (iiserb.ac.in)"
+      }
+    },
+    {
+      "id": "iiser-tvm",
+      "name": "Indian Institute of Science Education and Research Thiruvananthapuram",
+      "shortName": "IISER Thiruvananthapuram",
+      "state": "Kerala",
+      "city": "Vithura, Thiruvananthapuram",
+      "establishedYear": 2008,
+      "campusAddress": "Maruthamala PO, Vithura, Thiruvananthapuram – 695551, Kerala, India",
+      "officialWebsite": "https://www.iisertvm.ac.in",
+      "placementCellUrl": "https://www.iisertvm.ac.in/pages/placement_cell",
+      "researchPortalUrl": "https://www.iisertvm.ac.in/research",
+      "recruitmentUrl": "https://www.iisertvm.ac.in/openings",
+      "imageUrl": "/src/assets/images/hero_iiser_campus_1795008210274.jpg",
+      "history": "Established in 2008, IISER Thiruvananthapuram sits on a scenic 200-acre campus in Vithura nestled at the foothills of the Agasthyamalai hills in the Western Ghats.",
+      "vision": "To attain global recognition as a premier institution integrating high-quality science education with cutting-edge fundamental and translational research.",
+      "mission": "To foster scientific temper, ecological awareness, and interdisciplinary excellence across physical, chemical, biological, mathematical, and data sciences.",
+      "departments": [
+        "School of Biology",
+        "School of Chemistry",
+        "School of Physics",
+        "School of Mathematics",
+        "School of Data Science (and Interdisciplinary i²Sc)",
+        "School of Earth, Environmental and Sustainability Sciences"
+      ],
+      "ugProgrammes": [
+        "5-Year BS-MS Dual Degree",
+        "5-Year BS-MS in Integrated & Interdisciplinary Sciences (i²Sc — Biological, Chemical, Physical, Mathematical, Data Sciences)"
+      ],
+      "pgProgrammes": [
+        "2-Year M.Sc. in Biology, Chemistry, Physics, Mathematics"
+      ],
+      "phdProgrammes": [
+        "Integrated Ph.D.",
+        "Ph.D. across all Schools",
+        "Postdoctoral Fellowships"
+      ],
+      "researchAreas": [
+        "Western Ghats Biodiversity & Conservation Ecology",
+        "Organic Materials, Photovoltaics & Catalysis",
+        "Gravitational Waves (LIGO-India collaborations) & Quantum Physics",
+        "Stochastic Analysis & Computational Mathematics",
+        "Data Science & Sustainable Energy Systems"
+      ],
+      "researchLabs": [
+        "Centre for High-Performance Computing (Padmanabha Cluster)",
+        "Central Instrumentation Facility (500 MHz NMR, HR-TEM, XPS, SQUID)",
+        "Biodiversity & Ecology Field Station (Western Ghats)"
+      ],
+      "scientificInfrastructure": [
+        "High-Resolution TEM & FESEM",
+        "SQUID Magnetometer & Ultrafast Laser Spectroscopy",
+        "Supercomputing Cluster",
+        "Confocal & Electrophysiology Laboratories"
+      ],
+      "libraryFacilities": "Central Library offering extensive print and electronic journal subscriptions, digital repositories, and serene hillside reading rooms.",
+      "hostelFacilities": "Dedicated student hostels set amidst the lush Vithura campus with dining halls, high-speed internet, and student recreation lounges.",
+      "sportsAndExtracurriculars": "Indoor stadium, outdoor sports grounds, trekking/nature clubs exploring the Western Ghats, Ishya (annual cultural fest), and Anvesha (science fest).",
+      "campusFacilities": [
+        "Medical Centre & Pharmacy",
+        "Central Lecture Hall & Seminar Complex",
+        "Campus Cooperative Store & Banking",
+        "Bus connectivity to Thiruvananthapuram city"
+      ],
+      "studentLife": "Close-knit residential community known for exceptional ecological research exposure, strong physics/chemistry cohorts, and serene natural surroundings.",
+      "scholarshipsAndAid": "INSPIRE-SHE, MoE SC/ST/PwD tuition waivers, and state/central scholarship portals.",
+      "admissionOverview": "BS-MS and i²Sc BS-MS admissions via IAT; 2-year M.Sc. via IAT/JAM (verify latest M.Sc. brochure); Ph.D. via national fellowships and interviews.",
+      "placementCellOverview": "Placement & Career Counselling Cell assists graduating BS-MS and M.Sc. cohorts with R&D jobs, analytics roles, and doctoral applications.",
+      "alumniNetwork": "Strong PhD progression to European, US, and Indian institutions plus roles in pharma, data science, and R&D.",
+      "internshipOpportunities": "Active summer visiting student programmes and proximity to VSSC (ISRO), RGCB, and NIIST in Thiruvananthapuram.",
+      "industryCollaborations": [
+        "Regional research ecosystem with VSSC-ISRO, CSIR-NIIST, and RGCB",
+        "Materials & energy sector R&D"
+      ],
+      "internationalCollaborations": [
+        "LIGO Scientific Collaboration",
+        "Joint Indo-European & Indo-Japanese research projects"
+      ],
+      "contactEmail": "registrar@iisertvm.ac.in",
+      "contactPhone": "+91-471-277-8009",
+      "nirfRank2024": "NIRF 2024 Overall: 101–150 band (verify latest NIRF cycle)",
+      "feeSummary": {
+        "academicYear": "2025–26 Reference (Verify current semester circular)",
+        "generalObcEwsSemesterTuition": "₹44,000 – ₹48,000 / semester (approx.)",
+        "scStPwdTuition": "100% Tuition Fee Waiver (₹0 tuition)",
+        "oneTimeAdmissionDeposit": "₹15,000 – ₹20,000",
+        "hostelAndOtherPerSemester": "₹11,000 – ₹16,000 / semester",
+        "messChargesNote": "Separate monthly mess charges (~₹3,300–₹4,200/month)",
+        "sourceNote": "Official IISER TVM Fee Portal (iisertvm.ac.in)"
+      }
+    },
+    {
+      "id": "iiser-tirupati",
+      "name": "Indian Institute of Science Education and Research Tirupati",
+      "shortName": "IISER Tirupati",
+      "state": "Andhra Pradesh",
+      "city": "Tirupati",
+      "establishedYear": 2015,
+      "campusAddress": "Srinivasapuram-Jangalapalli Village, Panguru (G.P), Yerpedu Mandal, Tirupati – 517619, Andhra Pradesh, India",
+      "officialWebsite": "https://www.iisertirupati.ac.in",
+      "placementCellUrl": "https://www.iisertirupati.ac.in/placement-cell/",
+      "researchPortalUrl": "https://www.iisertirupati.ac.in/research/",
+      "recruitmentUrl": "https://www.iisertirupati.ac.in/opportunities/",
+      "imageUrl": "/src/assets/images/campus_lab_research_1795008210854.jpg",
+      "history": "Established in 2015 by the Ministry of Education (initially mentored by IISER Pune), IISER Tirupati has transitioned to its permanent 244-acre campus in Yerpedu near the Tirumala foothills and IIT Tirupati.",
+      "vision": "To build a premier science university fostering curiosity, interdisciplinary problem-solving, and regional-to-global scientific innovation.",
+      "mission": "To integrate foundational coursework with early hands-on research training and industry/academic collaboration.",
+      "departments": [
+        "Department of Biology",
+        "Department of Chemistry",
+        "Department of Physics",
+        "Department of Mathematics",
+        "Department of Earth & Climate Science",
+        "Department of Data Science (Interdisciplinary)",
+        "Humanities & Social Sciences Division"
+      ],
+      "ugProgrammes": [
+        "5-Year BS-MS Dual Degree",
+        "4-Year BS in Economic and Statistical Sciences (verify active IAT cycle)"
+      ],
+      "pgProgrammes": [
+        "Professional Master’s / M.Sc. programmes (verify active intake)"
+      ],
+      "phdProgrammes": [
+        "Integrated Ph.D.",
+        "Ph.D. across Sciences",
+        "Postdoctoral Fellowships"
+      ],
+      "researchAreas": [
+        "Cell & Molecular Biology, Neurobiology & Ecology",
+        "Organic Synthesis, Electrochemistry & Energy Materials",
+        "Astrophysics, Biophysics & Quantum Condensed Matter",
+        "Algebra, PDEs & Statistical Learning"
+      ],
+      "researchLabs": [
+        "Central Instrumentation Facility (NMR, XRD, Electron Microscopy)",
+        "High-Performance Computing Cluster",
+        "Molecular Biology & Bio-imaging Laboratories"
+      ],
+      "scientificInfrastructure": [
+        "400 MHz NMR & Single Crystal X-Ray Diffractometer",
+        "FESEM & Atomic Force Microscope",
+        "Laser Spectroscopy & Low-Temperature Physics Rigs"
+      ],
+      "libraryFacilities": "Modern Central Library on the Yerpedu permanent campus with print textbooks, digital journal portals, and quiet study zones.",
+      "hostelFacilities": "Newly constructed permanent residential hostels with modern amenities, Wi-Fi connectivity, dining facilities, and recreational areas.",
+      "sportsAndExtracurriculars": "Sports fields, indoor badminton/table tennis, cultural & science clubs, and participation in Inter-IISER Sports & Cultural Meets.",
+      "campusFacilities": [
+        "Campus Health Clinic",
+        "Permanent Academic & Research Blocks",
+        "Proximity to IIT Tirupati Research Ecosystem",
+        "Student Activity & Dining Complex"
+      ],
+      "studentLife": "Rapidly expanding permanent campus community with close faculty-student mentorship, active coding/journal clubs, and growing research infrastructure.",
+      "scholarshipsAndAid": "INSPIRE-SHE, MoE SC/ST/PwD tuition waivers, and central/state scholarships via NSP.",
+      "admissionOverview": "BS-MS admissions conducted through IAT. Integrated Ph.D. and Ph.D. admissions via national examinations (JAM/NET/GATE/JEST) and institute interviews.",
+      "placementCellOverview": "Placement & Career Development Cell coordinates internships, skill-building workshops, and corporate/research recruitment.",
+      "alumniNetwork": "Early cohorts have secured doctoral fellowships in Europe, US, Japan, and premier Indian institutes alongside industry roles.",
+      "internshipOpportunities": "Annual Summer Research Programme and collaborative internships with IIT Tirupati and Sri City industrial corridor.",
+      "industryCollaborations": [
+        "Academic synergy with IIT Tirupati",
+        "Pharmaceutical and biotech R&D partnerships in AP/Telangana belt"
+      ],
+      "internationalCollaborations": [
+        "Active faculty research grants with international universities",
+        "Global summer internship placements"
+      ],
+      "contactEmail": "registrar@iisertirupati.ac.in",
+      "contactPhone": "+91-877-2500-400",
+      "nirfRank2024": "Verify latest NIRF submission on official portal",
+      "feeSummary": {
+        "academicYear": "2025–26 Reference (Verify current semester circular)",
+        "generalObcEwsSemesterTuition": "₹44,000 – ₹48,000 / semester (approx.)",
+        "scStPwdTuition": "100% Tuition Fee Waiver (₹0 tuition)",
+        "oneTimeAdmissionDeposit": "₹15,000 – ₹20,000",
+        "hostelAndOtherPerSemester": "₹11,000 – ₹16,000 / semester",
+        "messChargesNote": "Separate monthly mess charges (~₹3,300–₹4,200/month)",
+        "sourceNote": "Official IISER Tirupati Fee Structure (iisertirupati.ac.in)"
+      }
+    },
+    {
+      "id": "iiser-berhampur",
+      "name": "Indian Institute of Science Education and Research Berhampur",
+      "shortName": "IISER Berhampur",
+      "state": "Odisha",
+      "city": "Berhampur (Brahmapur)",
+      "establishedYear": 2016,
+      "campusAddress": "At/Po: Laudigaon, Konisi, Police Station: Golanthara, Dist. Ganjam, Berhampur – 760003, Odisha, India",
+      "officialWebsite": "https://www.iiserbpr.ac.in",
+      "placementCellUrl": "https://www.iiserbpr.ac.in/student-corner/placement-cell",
+      "researchPortalUrl": "https://www.iiserbpr.ac.in/research",
+      "recruitmentUrl": "https://www.iiserbpr.ac.in/opportunities",
+      "imageUrl": "/src/assets/images/campus_lecture_hall_1795008211996.jpg",
+      "history": "Founded in 2016 (initially mentored by IISER Bhopal), IISER Berhampur is the newest of the seven IISERs and operates from its modern permanent 200-acre coastal campus at Laudigaon near Gopalpur-on-Sea, Odisha.",
+      "vision": "To emerge as a globally respected centre of scientific education and coastal/fundamental research in eastern India.",
+      "mission": "To empower undergraduate and doctoral students with rigorous scientific foundations and modern experimental/computational training.",
+      "departments": [
+        "Department of Biological Sciences",
+        "Department of Chemical Sciences",
+        "Department of Mathematical Sciences",
+        "Department of Physical Sciences",
+        "Department of Earth & Environmental Sciences (developing)",
+        "Computer & Data Science Initiatives"
+      ],
+      "ugProgrammes": [
+        "5-Year BS-MS Dual Degree"
+      ],
+      "pgProgrammes": [
+        "Check official academic portal for M.Sc. updates"
+      ],
+      "phdProgrammes": [
+        "Integrated Ph.D.",
+        "Ph.D. in Biological, Chemical, Physical & Mathematical Sciences",
+        "Postdoctoral Fellowships"
+      ],
+      "researchAreas": [
+        "Marine & Coastal Ecology (Bay of Bengal proximity)",
+        "Organic Synthesis, Nanomaterials & Energy Catalysis",
+        "Condensed Matter, Quantum Materials & High-Energy Physics",
+        "Differential Equations, Geometry & Data Analytics"
+      ],
+      "researchLabs": [
+        "Central Sophisticated Instrumentation Centre (NMR, XRD, SEM)",
+        "Marine & Environmental Field Research Initiatives",
+        "High-Performance Computing Lab"
+      ],
+      "scientificInfrastructure": [
+        "400 MHz NMR & Powder/Single Crystal XRD",
+        "Scanning Electron Microscopy (SEM) & Spectroscopy Suites",
+        "Modern Undergraduate Teaching & Research Labs on Laudigaon Campus"
+      ],
+      "libraryFacilities": "Central Library on the permanent Laudigaon campus providing digital journal access, core reference books, and extended reading hours.",
+      "hostelFacilities": "Newly built permanent hostels at Laudigaon offering single/shared rooms, campus Wi-Fi, dining halls, and indoor recreation.",
+      "sportsAndExtracurriculars": "Outdoor sports grounds, indoor fitness facilities, Kshitij/Inquivesta-style student festivals, and active science, coding, and photography clubs.",
+      "campusFacilities": [
+        "Campus Medical & Health Unit",
+        "Permanent Academic Complex & Lecture Halls",
+        "Bus shuttle to Berhampur city & Gopalpur coast",
+        "Dining & Student Utility Centre"
+      ],
+      "studentLife": "Close-knit, high-energy campus near the Bay of Bengal coast with strong faculty accessibility and rapid growth in research infrastructure.",
+      "scholarshipsAndAid": "INSPIRE-SHE, MoE SC/ST/PwD tuition waivers, and Odisha state/central NSP scholarships.",
+      "admissionOverview": "BS-MS admission through IAT (iiseradmission.in). Ph.D. and Integrated Ph.D. admissions through national fellowships (NET/GATE/JEST/JAM) and interviews.",
+      "placementCellOverview": "Career Development & Placement Cell guides graduating cohorts into PhD programs, R&D fellowships, and analytics/education careers.",
+      "alumniNetwork": "Graduating batches have entered doctoral programmes in India and abroad (IISc, TIFR, Europe, US) and early-career technical roles.",
+      "internshipOpportunities": "Summer Internship Programme and research collaborations with NISER Bhubaneswar, IIT Bhubaneswar, and national labs.",
+      "industryCollaborations": [
+        "Coastal, environmental, and materials science R&D partnerships"
+      ],
+      "internationalCollaborations": [
+        "International faculty research collaborations in Europe, US, and East Asia"
+      ],
+      "contactEmail": "registrar@iiserbpr.ac.in",
+      "contactPhone": "+91-680-2227-705",
+      "nirfRank2024": "Verify latest NIRF submission on official portal",
+      "feeSummary": {
+        "academicYear": "2025–26 Reference (Verify current semester circular)",
+        "generalObcEwsSemesterTuition": "₹44,000 – ₹48,000 / semester (approx.)",
+        "scStPwdTuition": "100% Tuition Fee Waiver (₹0 tuition)",
+        "oneTimeAdmissionDeposit": "₹15,000 – ₹20,000",
+        "hostelAndOtherPerSemester": "₹11,000 – ₹15,500 / semester",
+        "messChargesNote": "Separate monthly mess charges (~₹3,200–₹4,000/month)",
+        "sourceNote": "Official IISER Berhampur Fee Circular (iiserbpr.ac.in)"
+      }
+    }
+  ],
+  "lastUpdated": "2026-11-18"
+}

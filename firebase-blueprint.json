@@ -1,0 +1,271 @@
+{
+  "entities": {
+    "Institution": {
+      "title": "Institution",
+      "description": "Verified profile of one of India's seven IISER institutions including programmes, labs, facilities, and fee structure.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Slug identifier such as iiser-pune" },
+        "name": { "type": "string" },
+        "shortName": { "type": "string" },
+        "state": { "type": "string" },
+        "city": { "type": "string" },
+        "establishedYear": { "type": "integer" },
+        "campusAddress": { "type": "string" },
+        "officialWebsite": { "type": "string" },
+        "placementCellUrl": { "type": "string" },
+        "researchPortalUrl": { "type": "string" },
+        "recruitmentUrl": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "history": { "type": "string" },
+        "vision": { "type": "string" },
+        "mission": { "type": "string" },
+        "departments": { "type": "array", "items": { "type": "string" } },
+        "ugProgrammes": { "type": "array", "items": { "type": "string" } },
+        "pgProgrammes": { "type": "array", "items": { "type": "string" } },
+        "phdProgrammes": { "type": "array", "items": { "type": "string" } },
+        "researchAreas": { "type": "array", "items": { "type": "string" } },
+        "researchLabs": { "type": "array", "items": { "type": "string" } },
+        "scientificInfrastructure": { "type": "array", "items": { "type": "string" } },
+        "libraryFacilities": { "type": "string" },
+        "hostelFacilities": { "type": "string" },
+        "sportsAndExtracurriculars": { "type": "string" },
+        "campusFacilities": { "type": "array", "items": { "type": "string" } },
+        "studentLife": { "type": "string" },
+        "scholarshipsAndAid": { "type": "string" },
+        "admissionOverview": { "type": "string" },
+        "placementCellOverview": { "type": "string" },
+        "alumniNetwork": { "type": "string" },
+        "internshipOpportunities": { "type": "string" },
+        "industryCollaborations": { "type": "array", "items": { "type": "string" } },
+        "internationalCollaborations": { "type": "array", "items": { "type": "string" } },
+        "contactEmail": { "type": "string" },
+        "contactPhone": { "type": "string" },
+        "nirfRank2024": { "type": "string" },
+        "feeSummary": { "type": "object" }
+      },
+      "required": ["id", "name", "shortName", "state", "city", "establishedYear", "officialWebsite"]
+    },
+    "CourseProgram": {
+      "title": "CourseProgram",
+      "description": "Academic degree programme offered across IISER campuses.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "degreeType": { "type": "string", "enum": ["BS-MS", "BS", "B.Tech", "MSc", "Integrated PhD", "PhD", "Postdoc"] },
+        "duration": { "type": "string" },
+        "eligibility": { "type": "string" },
+        "admissionProcedure": { "type": "string" },
+        "offeredAt": { "type": "array", "items": { "type": "string" } },
+        "subjectsOffered": { "type": "array", "items": { "type": "string" } },
+        "curriculumSummary": { "type": "string" },
+        "semesterStructure": { "type": "string" },
+        "researchOpportunities": { "type": "string" },
+        "internshipOpportunities": { "type": "string" },
+        "higherEducationOptions": { "type": "array", "items": { "type": "string" } },
+        "careerOptions": { "type": "array", "items": { "type": "string" } },
+        "salaryProspects": { "type": "string" },
+        "officialSourceUrl": { "type": "string" }
+      },
+      "required": ["id", "title", "degreeType", "duration", "eligibility", "officialSourceUrl"]
+    },
+    "PlacementRecord": {
+      "title": "PlacementRecord",
+      "description": "Verified NIRF or institutional placement and higher-studies outcomes per IISER campus.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "institutionId": { "type": "string" },
+        "institutionName": { "type": "string" },
+        "academicYear": { "type": "string" },
+        "programScope": { "type": "string" },
+        "graduatingStudents": { "type": "string" },
+        "higherStudiesCount": { "type": "string" },
+        "placedStudents": { "type": "string" },
+        "placementPercentage": { "type": "string" },
+        "medianSalary": { "type": "string" },
+        "averageSalary": { "type": "string" },
+        "highestSalary": { "type": "string" },
+        "minimumSalary": { "type": "string" },
+        "topSectorsAndRecruiters": { "type": "string" },
+        "sourceLabel": { "type": "string" },
+        "officialUrl": { "type": "string" },
+        "dataStatus": { "type": "string" }
+      },
+      "required": ["id", "institutionId", "institutionName", "academicYear", "medianSalary", "officialUrl", "dataStatus"]
+    },
+    "SalaryBenchmark": {
+      "title": "SalaryBenchmark",
+      "description": "Fellowship, government R&D, and private sector salary benchmarks for IISER graduates.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "role": { "type": "string" },
+        "sector": { "type": "string" },
+        "entryLevel": { "type": "string" },
+        "midCareer": { "type": "string" },
+        "experienced": { "type": "string" },
+        "payStructureNote": { "type": "string" },
+        "verificationType": { "type": "string" },
+        "sourceAndYear": { "type": "string" }
+      },
+      "required": ["id", "role", "sector", "entryLevel", "verificationType", "sourceAndYear"]
+    },
+    "Scholarship": {
+      "title": "Scholarship",
+      "description": "Merit, category, PhD fellowship, and international scholarship schemes.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "provider": { "type": "string" },
+        "category": { "type": "string" },
+        "eligibility": { "type": "string" },
+        "benefitsAndAmount": { "type": "string" },
+        "duration": { "type": "string" },
+        "applicationProcedure": { "type": "string" },
+        "importantDates": { "type": "string" },
+        "requiredDocuments": { "type": "array", "items": { "type": "string" } },
+        "officialUrl": { "type": "string" },
+        "lastUpdated": { "type": "string" }
+      },
+      "required": ["id", "name", "provider", "category", "benefitsAndAmount", "officialUrl"]
+    },
+    "Vacancy": {
+      "title": "Vacancy",
+      "description": "Faculty, postdoctoral, JRF/SRF, technical, and administrative recruitment notices at IISERs.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "institution": { "type": "string" },
+        "position": { "type": "string" },
+        "category": { "type": "string" },
+        "department": { "type": "string" },
+        "qualification": { "type": "string" },
+        "experience": { "type": "string" },
+        "ageLimit": { "type": "string" },
+        "salaryOrPayLevel": { "type": "string" },
+        "deadline": { "type": "string" },
+        "status": { "type": "string" },
+        "selectionProcedure": { "type": "string" },
+        "officialNotificationUrl": { "type": "string" },
+        "applicationUrl": { "type": "string" }
+      },
+      "required": ["id", "institution", "position", "category", "department", "salaryOrPayLevel", "officialNotificationUrl"]
+    },
+    "NewsNotification": {
+      "title": "NewsNotification",
+      "description": "Official IAT, admission, counselling, scholarship, placement, and recruitment announcements.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "date": { "type": "string" },
+        "sourceName": { "type": "string" },
+        "sourceType": { "type": "string" },
+        "summary": { "type": "string" },
+        "officialUrl": { "type": "string" }
+      },
+      "required": ["id", "title", "category", "date", "sourceName", "sourceType", "summary", "officialUrl"]
+    },
+    "ContactInquiry": {
+      "title": "ContactInquiry",
+      "description": "User-submitted portal inquiry or official data correction request (contains PII).",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "authorUid": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "role": { "type": "string" },
+        "message": { "type": "string" },
+        "status": { "type": "string", "enum": ["submitted", "reviewed"] },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "authorUid", "name", "email", "role", "message", "status", "createdAt"]
+    },
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Registered portal user profile.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string", "enum": ["user", "admin"] },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email", "displayName", "role", "createdAt"]
+    },
+    "PortalMeta": {
+      "title": "PortalMeta",
+      "description": "CMS synchronization metadata.",
+      "type": "object",
+      "properties": {
+        "lastUpdated": { "type": "string" },
+        "seededBy": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["lastUpdated", "updatedAt"]
+    },
+    "AdminRecord": {
+      "title": "AdminRecord",
+      "description": "Authorized portal administrator entry.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "grantedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email", "grantedAt"]
+    }
+  },
+  "firestore": {
+    "/institutions/{institutionId}": {
+      "schema": "Institution",
+      "description": "Public verified directory of India's seven IISER campuses."
+    },
+    "/courses/{courseId}": {
+      "schema": "CourseProgram",
+      "description": "Public directory of IISER academic degree programmes."
+    },
+    "/placements/{placementId}": {
+      "schema": "PlacementRecord",
+      "description": "Public NIRF & institutional placement statistics."
+    },
+    "/salaries/{salaryId}": {
+      "schema": "SalaryBenchmark",
+      "description": "Public verified fellowship and career salary benchmarks."
+    },
+    "/scholarships/{scholarshipId}": {
+      "schema": "Scholarship",
+      "description": "Public scholarship and research fellowship records."
+    },
+    "/vacancies/{vacancyId}": {
+      "schema": "Vacancy",
+      "description": "Public recruitment and vacancy announcements."
+    },
+    "/news/{newsId}": {
+      "schema": "NewsNotification",
+      "description": "Public IAT and admission announcements."
+    },
+    "/portalMeta/{metaId}": {
+      "schema": "PortalMeta",
+      "description": "CMS sync metadata document."
+    },
+    "/contacts/{contactId}": {
+      "schema": "ContactInquiry",
+      "description": "Private user-submitted contact inquiries and data correction notes."
+    },
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Private user account profiles."
+    },
+    "/admins/{userId}": {
+      "schema": "AdminRecord",
+      "description": "Authorized CMS administrator accounts."
+    }
+  }
+}

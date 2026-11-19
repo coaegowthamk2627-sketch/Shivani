@@ -1,0 +1,474 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && (
+        (request.auth.token.email == 'coaegowthamk2627@gmail.com' && request.auth.token.email_verified == true) ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && !id.matches('.*[/\\\\].*') && id != '.' && id != '..';
+    }
+
+    function isValidString(val, minLen, maxLen) {
+      return val is string && val.size() >= minLen && val.size() <= maxLen;
+    }
+
+    function isValidUrl(url) {
+      return url is string && url.size() >= 8 && url.size() <= 500 && url.matches('^https?://.*');
+    }
+
+    function isValidEmail(email) {
+      return email is string && email.size() >= 3 && email.size() <= 200 && email.matches('^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$');
+    }
+
+    // ===============================================================
+    // Domain Validators
+    // ===============================================================
+
+    function isValidNews(data, docId) {
+      return data.keys().hasAll([
+          'id', 'title', 'category', 'date', 'sourceName', 'sourceType', 'summary', 'officialUrl'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'title', 'category', 'date', 'sourceName', 'sourceType', 'summary', 'officialUrl'
+        ]) &&
+        data.id == docId &&
+        isValidString(data.title, 3, 300) &&
+        data.category in [
+          'IAT Announcements',
+          'Admission & Counselling',
+          'Results & Cut-offs',
+          'Scholarships',
+          'Research Achievements',
+          'Placements',
+          'Job & Faculty Recruitment',
+          'PhD & Internships'
+        ] &&
+        isValidString(data.date, 2, 60) &&
+        isValidString(data.sourceName, 2, 200) &&
+        data.sourceType in ['Official Announcement', 'Verified Institutional Update'] &&
+        isValidString(data.summary, 5, 2500) &&
+        isValidUrl(data.officialUrl);
+    }
+
+    function isValidVacancy(data, docId) {
+      return data.keys().hasAll([
+          'id', 'institution', 'position', 'category', 'department',
+          'qualification', 'experience', 'ageLimit', 'salaryOrPayLevel',
+          'deadline', 'status', 'selectionProcedure', 'officialNotificationUrl', 'applicationUrl'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'institution', 'position', 'category', 'department',
+          'qualification', 'experience', 'ageLimit', 'salaryOrPayLevel',
+          'deadline', 'status', 'selectionProcedure', 'officialNotificationUrl', 'applicationUrl'
+        ]) &&
+        data.id == docId &&
+        isValidString(data.institution, 2, 120) &&
+        isValidString(data.position, 2, 240) &&
+        data.category in [
+          'Faculty',
+          'Postdoctoral',
+          'Research (JRF/SRF/Project)',
+          'Technical',
+          'Administrative & Non-Teaching'
+        ] &&
+        isValidString(data.department, 2, 200) &&
+        isValidString(data.qualification, 2, 600) &&
+        isValidString(data.experience, 1, 400) &&
+        isValidString(data.ageLimit, 1, 200) &&
+        isValidString(data.salaryOrPayLevel, 2, 240) &&
+        isValidString(data.deadline, 2, 120) &&
+        data.status in ['Active (Rolling / Open)', 'Closed', 'Verify on Institute Portal'] &&
+        isValidString(data.selectionProcedure, 2, 400) &&
+        isValidUrl(data.officialNotificationUrl) &&
+        isValidUrl(data.applicationUrl);
+    }
+
+    function isValidScholarship(data, docId) {
+      return data.keys().hasAll([
+          'id', 'name', 'provider', 'category', 'eligibility',
+          'benefitsAndAmount', 'duration', 'applicationProcedure',
+          'importantDates', 'requiredDocuments', 'officialUrl', 'lastUpdated'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'name', 'provider', 'category', 'eligibility',
+          'benefitsAndAmount', 'duration', 'applicationProcedure',
+          'importantDates', 'requiredDocuments', 'officialUrl', 'lastUpdated'
+        ]) &&
+        data.id == docId &&
+        isValidString(data.name, 2, 240) &&
+        isValidString(data.provider, 2, 240) &&
+        data.category in [
+          'Merit & Science',
+          'Category / Social Welfare',
+          'PhD & Research Fellowship',
+          'International'
+        ] &&
+        isValidString(data.eligibility, 3, 1200) &&
+        isValidString(data.benefitsAndAmount, 2, 600) &&
+        isValidString(data.duration, 2, 240) &&
+        isValidString(data.applicationProcedure, 2, 1000) &&
+        isValidString(data.importantDates, 2, 400) &&
+        data.requiredDocuments is list && data.requiredDocuments.size() <= 20 &&
+        isValidUrl(data.officialUrl) &&
+        isValidString(data.lastUpdated, 4, 40);
+    }
+
+    function isValidPlacement(data, docId) {
+      return data.keys().hasAll([
+          'id', 'institutionId', 'institutionName', 'academicYear', 'programScope',
+          'graduatingStudents', 'higherStudiesCount', 'placedStudents', 'placementPercentage',
+          'medianSalary', 'averageSalary', 'highestSalary', 'minimumSalary',
+          'topSectorsAndRecruiters', 'sourceLabel', 'officialUrl', 'dataStatus'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'institutionId', 'institutionName', 'academicYear', 'programScope',
+          'graduatingStudents', 'higherStudiesCount', 'placedStudents', 'placementPercentage',
+          'medianSalary', 'averageSalary', 'highestSalary', 'minimumSalary',
+          'topSectorsAndRecruiters', 'sourceLabel', 'officialUrl', 'dataStatus'
+        ]) &&
+        data.id == docId &&
+        isValidString(data.institutionId, 2, 80) &&
+        isValidString(data.institutionName, 2, 180) &&
+        isValidString(data.academicYear, 4, 80) &&
+        isValidString(data.programScope, 2, 200) &&
+        isValidString(data.graduatingStudents, 1, 100) &&
+        isValidString(data.higherStudiesCount, 1, 100) &&
+        isValidString(data.placedStudents, 1, 100) &&
+        isValidString(data.placementPercentage, 1, 100) &&
+        isValidString(data.medianSalary, 1, 120) &&
+        isValidString(data.averageSalary, 1, 120) &&
+        isValidString(data.highestSalary, 1, 120) &&
+        isValidString(data.minimumSalary, 1, 120) &&
+        isValidString(data.topSectorsAndRecruiters, 2, 800) &&
+        isValidString(data.sourceLabel, 2, 300) &&
+        isValidUrl(data.officialUrl) &&
+        data.dataStatus in [
+          'Published (NIRF / Institute Report)',
+          'Partial Official Data',
+          'Official data not publicly available'
+        ];
+    }
+
+    function isValidSalary(data, docId) {
+      return data.keys().hasAll([
+          'id', 'role', 'sector', 'entryLevel', 'midCareer', 'experienced',
+          'payStructureNote', 'verificationType', 'sourceAndYear'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'role', 'sector', 'entryLevel', 'midCareer', 'experienced',
+          'payStructureNote', 'verificationType', 'sourceAndYear'
+        ]) &&
+        data.id == docId &&
+        isValidString(data.role, 2, 240) &&
+        data.sector in [
+          'Fellowship / Academia',
+          'Government R&D',
+          'Private Industry / Biotech',
+          'Data Science & AI',
+          'International Research'
+        ] &&
+        isValidString(data.entryLevel, 2, 200) &&
+        isValidString(data.midCareer, 2, 200) &&
+        isValidString(data.experienced, 2, 200) &&
+        isValidString(data.payStructureNote, 2, 1000) &&
+        data.verificationType in ['Verified Official Notification / Guidelines', 'Estimated Range'] &&
+        isValidString(data.sourceAndYear, 2, 300);
+    }
+
+    function isValidCourse(data, docId) {
+      return data.keys().hasAll([
+          'id', 'title', 'degreeType', 'duration', 'eligibility', 'admissionProcedure',
+          'offeredAt', 'subjectsOffered', 'curriculumSummary', 'semesterStructure',
+          'researchOpportunities', 'internshipOpportunities', 'higherEducationOptions',
+          'careerOptions', 'salaryProspects', 'officialSourceUrl'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'title', 'degreeType', 'duration', 'eligibility', 'admissionProcedure',
+          'offeredAt', 'subjectsOffered', 'curriculumSummary', 'semesterStructure',
+          'researchOpportunities', 'internshipOpportunities', 'higherEducationOptions',
+          'careerOptions', 'salaryProspects', 'officialSourceUrl'
+        ]) &&
+        data.id == docId &&
+        isValidString(data.title, 2, 240) &&
+        data.degreeType in ['BS-MS', 'BS', 'B.Tech', 'MSc', 'Integrated PhD', 'PhD', 'Postdoc'] &&
+        isValidString(data.duration, 2, 120) &&
+        isValidString(data.eligibility, 3, 1200) &&
+        isValidString(data.admissionProcedure, 3, 1200) &&
+        data.offeredAt is list && data.offeredAt.size() <= 15 &&
+        data.subjectsOffered is list && data.subjectsOffered.size() <= 30 &&
+        isValidString(data.curriculumSummary, 5, 2000) &&
+        isValidString(data.semesterStructure, 5, 2000) &&
+        isValidString(data.researchOpportunities, 5, 2000) &&
+        isValidString(data.internshipOpportunities, 5, 2000) &&
+        data.higherEducationOptions is list && data.higherEducationOptions.size() <= 20 &&
+        data.careerOptions is list && data.careerOptions.size() <= 20 &&
+        isValidString(data.salaryProspects, 3, 1000) &&
+        isValidUrl(data.officialSourceUrl);
+    }
+
+    function isValidInstitution(data, docId) {
+      return data.keys().hasAll([
+          'id', 'name', 'shortName', 'state', 'city', 'establishedYear',
+          'campusAddress', 'officialWebsite', 'placementCellUrl', 'researchPortalUrl',
+          'recruitmentUrl', 'imageUrl', 'history', 'vision', 'mission',
+          'departments', 'ugProgrammes', 'pgProgrammes', 'phdProgrammes',
+          'researchAreas', 'researchLabs', 'scientificInfrastructure',
+          'libraryFacilities', 'hostelFacilities', 'sportsAndExtracurriculars',
+          'campusFacilities', 'studentLife', 'scholarshipsAndAid',
+          'admissionOverview', 'placementCellOverview', 'alumniNetwork',
+          'internshipOpportunities', 'industryCollaborations', 'internationalCollaborations',
+          'contactEmail', 'contactPhone', 'feeSummary'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'name', 'shortName', 'state', 'city', 'establishedYear',
+          'campusAddress', 'officialWebsite', 'placementCellUrl', 'researchPortalUrl',
+          'recruitmentUrl', 'imageUrl', 'history', 'vision', 'mission',
+          'departments', 'ugProgrammes', 'pgProgrammes', 'phdProgrammes',
+          'researchAreas', 'researchLabs', 'scientificInfrastructure',
+          'libraryFacilities', 'hostelFacilities', 'sportsAndExtracurriculars',
+          'campusFacilities', 'studentLife', 'scholarshipsAndAid',
+          'admissionOverview', 'placementCellOverview', 'alumniNetwork',
+          'internshipOpportunities', 'industryCollaborations', 'internationalCollaborations',
+          'contactEmail', 'contactPhone', 'nirfRank2024', 'feeSummary'
+        ]) &&
+        data.id == docId &&
+        isValidString(data.name, 3, 240) &&
+        isValidString(data.shortName, 3, 80) &&
+        isValidString(data.state, 2, 100) &&
+        isValidString(data.city, 2, 100) &&
+        data.establishedYear is int && data.establishedYear >= 2000 && data.establishedYear <= 2100 &&
+        isValidString(data.campusAddress, 5, 500) &&
+        isValidUrl(data.officialWebsite) &&
+        isValidUrl(data.placementCellUrl) &&
+        isValidUrl(data.researchPortalUrl) &&
+        isValidUrl(data.recruitmentUrl) &&
+        isValidString(data.imageUrl, 3, 500) &&
+        isValidString(data.history, 5, 3000) &&
+        isValidString(data.vision, 5, 1500) &&
+        isValidString(data.mission, 5, 1500) &&
+        data.departments is list && data.departments.size() <= 40 &&
+        data.ugProgrammes is list && data.ugProgrammes.size() <= 30 &&
+        data.pgProgrammes is list && data.pgProgrammes.size() <= 30 &&
+        data.phdProgrammes is list && data.phdProgrammes.size() <= 30 &&
+        data.researchAreas is list && data.researchAreas.size() <= 40 &&
+        data.researchLabs is list && data.researchLabs.size() <= 40 &&
+        data.scientificInfrastructure is list && data.scientificInfrastructure.size() <= 40 &&
+        isValidString(data.libraryFacilities, 3, 2000) &&
+        isValidString(data.hostelFacilities, 3, 2000) &&
+        isValidString(data.sportsAndExtracurriculars, 3, 2000) &&
+        data.campusFacilities is list && data.campusFacilities.size() <= 40 &&
+        isValidString(data.studentLife, 3, 2000) &&
+        isValidString(data.scholarshipsAndAid, 3, 2000) &&
+        isValidString(data.admissionOverview, 3, 2000) &&
+        isValidString(data.placementCellOverview, 3, 2000) &&
+        isValidString(data.alumniNetwork, 3, 2000) &&
+        isValidString(data.internshipOpportunities, 3, 2000) &&
+        data.industryCollaborations is list && data.industryCollaborations.size() <= 30 &&
+        data.internationalCollaborations is list && data.internationalCollaborations.size() <= 30 &&
+        isValidString(data.contactEmail, 3, 200) &&
+        isValidString(data.contactPhone, 3, 100) &&
+        (!('nirfRank2024' in data) || isValidString(data.nirfRank2024, 1, 150)) &&
+        data.feeSummary is map &&
+        data.feeSummary.keys().hasAll([
+          'academicYear', 'generalObcEwsSemesterTuition', 'scStPwdTuition',
+          'oneTimeAdmissionDeposit', 'hostelAndOtherPerSemester', 'messChargesNote', 'sourceNote'
+        ]) &&
+        data.feeSummary.keys().hasOnly([
+          'academicYear', 'generalObcEwsSemesterTuition', 'scStPwdTuition',
+          'oneTimeAdmissionDeposit', 'hostelAndOtherPerSemester', 'messChargesNote', 'sourceNote'
+        ]);
+    }
+
+    function isValidPortalMeta(data) {
+      return data.keys().hasAll(['lastUpdated', 'updatedAt']) &&
+        data.keys().hasOnly(['lastUpdated', 'seededBy', 'updatedAt']) &&
+        isValidString(data.lastUpdated, 4, 40) &&
+        (!('seededBy' in data) || isValidString(data.seededBy, 1, 128)) &&
+        data.updatedAt == request.time;
+    }
+
+    function isValidContactCreate(data, docId) {
+      return data.keys().hasAll([
+          'id', 'authorUid', 'name', 'email', 'role', 'message', 'status', 'createdAt'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'authorUid', 'name', 'email', 'role', 'message', 'status', 'createdAt'
+        ]) &&
+        data.id == docId &&
+        data.authorUid == request.auth.uid &&
+        isValidString(data.name, 1, 120) &&
+        isValidEmail(data.email) &&
+        isValidString(data.role, 2, 80) &&
+        isValidString(data.message, 8, 3000) &&
+        data.status == 'submitted' &&
+        data.createdAt == request.time;
+    }
+
+    function isValidContactUpdate(data, prev) {
+      return data.keys().hasAll([
+          'id', 'authorUid', 'name', 'email', 'role', 'message', 'status', 'createdAt'
+        ]) &&
+        data.keys().hasOnly([
+          'id', 'authorUid', 'name', 'email', 'role', 'message', 'status', 'createdAt'
+        ]) &&
+        data.id == prev.id &&
+        data.authorUid == prev.authorUid &&
+        data.createdAt == prev.createdAt &&
+        data.status in ['submitted', 'reviewed'];
+    }
+
+    function isValidUserCreate(data, userId) {
+      return data.keys().hasAll(['uid', 'email', 'displayName', 'role', 'createdAt']) &&
+        data.keys().hasOnly(['uid', 'email', 'displayName', 'role', 'createdAt']) &&
+        data.uid == userId &&
+        isValidEmail(data.email) &&
+        isValidString(data.displayName, 1, 120) &&
+        (data.role == 'user' || (data.role == 'admin' && isAdmin())) &&
+        data.createdAt == request.time;
+    }
+
+    function isValidUserSelfUpdate(data, prev) {
+      return data.keys().hasAll(['uid', 'email', 'displayName', 'role', 'createdAt']) &&
+        data.keys().hasOnly(['uid', 'email', 'displayName', 'role', 'createdAt']) &&
+        data.uid == prev.uid &&
+        data.role == prev.role &&
+        data.createdAt == prev.createdAt &&
+        isValidEmail(data.email) &&
+        isValidString(data.displayName, 1, 120);
+    }
+
+    function isValidUserAdminUpdate(data, prev) {
+      return data.keys().hasAll(['uid', 'email', 'displayName', 'role', 'createdAt']) &&
+        data.keys().hasOnly(['uid', 'email', 'displayName', 'role', 'createdAt']) &&
+        data.uid == prev.uid &&
+        data.createdAt == prev.createdAt &&
+        data.role in ['user', 'admin'] &&
+        isValidEmail(data.email) &&
+        isValidString(data.displayName, 1, 120);
+    }
+
+    function isValidAdminRecord(data, userId) {
+      return data.keys().hasAll(['uid', 'email', 'grantedAt']) &&
+        data.keys().hasOnly(['uid', 'email', 'grantedAt']) &&
+        data.uid == userId &&
+        isValidEmail(data.email) &&
+        data.grantedAt == request.time;
+    }
+
+    // ===============================================================
+    // Public Non-PII Educational Catalog Rules
+    // ===============================================================
+
+    match /news/{newsId} {
+      allow get, list: if true;
+      allow create, update: if isAdmin() && isValidId(newsId) && isValidNews(incoming(), newsId);
+      allow delete: if isAdmin() && isValidId(newsId);
+    }
+
+    match /vacancies/{vacancyId} {
+      allow get, list: if true;
+      allow create, update: if isAdmin() && isValidId(vacancyId) && isValidVacancy(incoming(), vacancyId);
+      allow delete: if isAdmin() && isValidId(vacancyId);
+    }
+
+    match /scholarships/{scholarshipId} {
+      allow get, list: if true;
+      allow create, update: if isAdmin() && isValidId(scholarshipId) && isValidScholarship(incoming(), scholarshipId);
+      allow delete: if isAdmin() && isValidId(scholarshipId);
+    }
+
+    match /placements/{placementId} {
+      allow get, list: if true;
+      allow create, update: if isAdmin() && isValidId(placementId) && isValidPlacement(incoming(), placementId);
+      allow delete: if isAdmin() && isValidId(placementId);
+    }
+
+    match /salaries/{salaryId} {
+      allow get, list: if true;
+      allow create, update: if isAdmin() && isValidId(salaryId) && isValidSalary(incoming(), salaryId);
+      allow delete: if isAdmin() && isValidId(salaryId);
+    }
+
+    match /courses/{courseId} {
+      allow get, list: if true;
+      allow create, update: if isAdmin() && isValidId(courseId) && isValidCourse(incoming(), courseId);
+      allow delete: if isAdmin() && isValidId(courseId);
+    }
+
+    match /institutions/{institutionId} {
+      allow get, list: if true;
+      allow create, update: if isAdmin() && isValidId(institutionId) && isValidInstitution(incoming(), institutionId);
+      allow delete: if isAdmin() && isValidId(institutionId);
+    }
+
+    match /portalMeta/{metaId} {
+      allow get: if true;
+      allow list: if false;
+      allow create, update: if isAdmin() && isValidId(metaId) && isValidPortalMeta(incoming());
+      allow delete: if isAdmin() && isValidId(metaId);
+    }
+
+    // ===============================================================
+    // Private PII & User-Scoped Rules
+    // ===============================================================
+
+    match /contacts/{contactId} {
+      allow get, list: if isAdmin() || (isAuthenticated() && resource.data.authorUid == request.auth.uid);
+      allow create: if isAuthenticated() && isValidId(contactId) && isValidContactCreate(incoming(), contactId);
+      allow update: if isAdmin() && isValidId(contactId) && isValidContactUpdate(incoming(), existing());
+      allow delete: if isAdmin() && isValidId(contactId);
+    }
+
+    match /users/{userId} {
+      allow get: if isOwner(userId) || isAdmin();
+      allow list: if isAdmin();
+      allow create: if isOwner(userId) && isValidId(userId) && isValidUserCreate(incoming(), userId);
+      allow update: if isValidId(userId) && (
+        (isOwner(userId) && isValidUserSelfUpdate(incoming(), existing())) ||
+        (isAdmin() && isValidUserAdminUpdate(incoming(), existing()))
+      );
+      allow delete: if isAdmin() && isValidId(userId);
+    }
+
+    match /admins/{userId} {
+      allow get: if isOwner(userId) || isAdmin();
+      allow list: if isAdmin();
+      allow create, update: if isAdmin() && isValidId(userId) && isValidAdminRecord(incoming(), userId);
+      allow delete: if isAdmin() && isValidId(userId);
+    }
+
+    // ===============================================================
+    // Default Catch-All Deny
+    // ===============================================================
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
